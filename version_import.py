@@ -30,7 +30,9 @@ def do_add(apkfile):
     so_info = mcpeinfocheck.get_so_info(mcpe_path)
     print(so_info)
 
-    versiondb.create_version(version_code, version_name, so_info["is_beta"], so_info["protocol_ver"])
+    versions = versiondb.VersionList(".")
+    versions.add_version(version_code, version_name, so_info["is_beta"], so_info["protocol_ver"])
+    versions.save()
 
     os.remove(mcpe_path)
 
