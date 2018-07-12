@@ -43,7 +43,7 @@ class VersionList:
                 inserted = True
                 break
             if val["version_code"] > code:
-                self.versions.index(idx, obj)
+                self.versions.insert(idx, obj)
                 inserted = True
                 break
         if not inserted:
