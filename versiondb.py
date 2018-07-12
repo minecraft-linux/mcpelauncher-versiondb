@@ -22,7 +22,7 @@ class VersionList:
     def save_minified(self):
         data = []
         for v in self.versions:
-            data.append([v["version_code"], v["version_name"]])
+            data.append([v["version_code"], v["version_name"], 1 if "beta" in v else 0])
         with open(self.min_file, 'w') as f:
             json.dump(data, f, separators=(',',':'))
 
