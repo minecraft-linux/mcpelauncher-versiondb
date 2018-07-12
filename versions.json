@@ -1,0 +1,120 @@
+[
+    {
+        "version_code": 872021104,
+        "version_name": "1.2.11.4",
+        "protocol": 201
+    },
+    {
+        "version_code": 872021312,
+        "version_name": "1.2.13.12",
+        "protocol": 223,
+        "beta": true
+    },
+    {
+        "version_code": 872021354,
+        "version_name": "1.2.13.54",
+        "protocol": 223
+    },
+    {
+        "version_code": 872021360,
+        "version_name": "1.2.13.60",
+        "protocol": 223
+    },
+    {
+        "version_code": 872021402,
+        "version_name": "1.2.14.2",
+        "protocol": 240,
+        "beta": true
+    },
+    {
+        "version_code": 872021403,
+        "version_name": "1.2.14.3",
+        "protocol": 240,
+        "beta": true
+    },
+    {
+        "version_code": 872022001,
+        "version_name": "1.2.20.1",
+        "protocol": 260,
+        "beta": true
+    },
+    {
+        "version_code": 872022002,
+        "version_name": "1.2.20.2",
+        "protocol": 260,
+        "beta": true
+    },
+    {
+        "version_code": 872040005,
+        "version_name": "1.4.0.5",
+        "protocol": 261
+    },
+    {
+        "version_code": 872040100,
+        "version_name": "1.4.1.0",
+        "protocol": 261
+    },
+    {
+        "version_code": 872040200,
+        "version_name": "1.4.2.0",
+        "protocol": 261
+    },
+    {
+        "version_code": 872040400,
+        "version_name": "1.4.4.0",
+        "protocol": 261
+    },
+    {
+        "version_code": 872050000,
+        "version_name": "1.5.0.0",
+        "protocol": 270,
+        "beta": true
+    },
+    {
+        "version_code": 872050001,
+        "version_name": "1.5.0.1",
+        "protocol": 271,
+        "beta": true
+    },
+    {
+        "version_code": 872050004,
+        "version_name": "1.5.0.4",
+        "protocol": 271,
+        "beta": true
+    },
+    {
+        "version_code": 872050007,
+        "version_name": "1.5.0.7",
+        "protocol": 273,
+        "beta": true
+    },
+    {
+        "version_code": 872050010,
+        "version_name": "1.5.0.10",
+        "protocol": 274,
+        "beta": true
+    },
+    {
+        "version_code": 872050014,
+        "version_name": "1.5.0.14",
+        "protocol": 274
+    },
+    {
+        "version_code": 872060001,
+        "version_name": "1.6.0.1",
+        "protocol": 280,
+        "beta": true
+    },
+    {
+        "version_code": 872060005,
+        "version_name": "1.6.0.5",
+        "protocol": 281,
+        "beta": true
+    },
+    {
+        "version_code": 872060006,
+        "version_name": "1.6.0.6",
+        "protocol": 281,
+        "beta": true
+    }
+]
