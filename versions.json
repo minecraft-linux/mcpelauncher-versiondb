@@ -121,5 +121,11 @@
         "version_name": "1.6.0.6",
         "protocol": 281,
         "beta": true
+    },
+    {
+        "version_code": 872060008,
+        "version_name": "1.6.0.8",
+        "protocol": 282,
+        "beta": true
     }
 ]
