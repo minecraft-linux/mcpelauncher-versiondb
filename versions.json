@@ -105,6 +105,11 @@
         "protocol": 274
     },
     {
+        "version_code": 872050201,
+        "version_name": "1.5.2.1",
+        "protocol": 274
+    },
+    {
         "version_code": 872060001,
         "version_name": "1.6.0.1",
         "protocol": 280,
