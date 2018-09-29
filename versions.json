@@ -177,5 +177,11 @@
         "version_name": "1.7.0.7",
         "protocol": 291,
         "beta": true
+    },
+    {
+        "version_code": 872070009,
+        "version_name": "1.7.0.9",
+        "protocol": 291,
+        "beta": true
     }
 ]
