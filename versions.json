@@ -200,5 +200,11 @@
         "version_name": "1.8.0.10",
         "protocol": 311,
         "beta": true
+    },
+    {
+        "version_code": 872080011,
+        "version_name": "1.8.0.11",
+        "protocol": 312,
+        "beta": true
     }
 ]
