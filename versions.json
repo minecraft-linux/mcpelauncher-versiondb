@@ -330,5 +330,11 @@
         "version_name": "1.9.0.0",
         "protocol": 330,
         "beta": true
+    },
+    {
+        "version_code": 872090002,
+        "version_name": "1.9.0.2",
+        "protocol": 331,
+        "beta": true
     }
 ]
