@@ -331,6 +331,11 @@
         "protocol": 313
     },
     {
+        "version_code": 872080102,
+        "version_name": "1.8.1.2",
+        "protocol": 313
+    },
+    {
         "version_code": 872090000,
         "version_name": "1.9.0.0",
         "protocol": 330,
