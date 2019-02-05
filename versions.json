@@ -360,6 +360,11 @@
         "beta": true
     },
     {
+        "version_code": 872090015,
+        "version_name": "1.9.0.15",
+        "protocol": 332
+    },
+    {
         "version_code": 872100003,
         "version_name": "1.10.0.3",
         "protocol": 340,
