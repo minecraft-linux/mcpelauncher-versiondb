@@ -369,5 +369,11 @@
         "version_name": "1.10.0.3",
         "protocol": 340,
         "beta": true
+    },
+    {
+        "version_code": 872100004,
+        "version_name": "1.10.0.4",
+        "protocol": 340,
+        "beta": true
     }
 ]
