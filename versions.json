@@ -377,6 +377,11 @@
         "beta": true
     },
     {
+        "version_code": 872100007,
+        "version_name": "1.10.0.7",
+        "protocol": 340
+    },
+    {
         "version_code": 872110001,
         "version_name": "1.11.0.1",
         "protocol": 350,
