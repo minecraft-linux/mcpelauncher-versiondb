@@ -416,5 +416,11 @@
         "version_name": "1.11.0.8",
         "protocol": 354,
         "beta": true
+    },
+    {
+        "version_code": 872110009,
+        "version_name": "1.11.0.9",
+        "protocol": 354,
+        "beta": true
     }
 ]
