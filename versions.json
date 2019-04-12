@@ -1,10 +1,4 @@
-[
-    {
-        "protocol": 354, 
-        "version_name": "1.11.0.10", 
-        "version_code": 871110010, 
-        "beta": true
-    }, 
+[ 
     {
         "protocol": 137, 
         "version_name": "1.2.3.3", 
@@ -427,6 +421,12 @@
         "protocol": 354, 
         "version_name": "1.11.0.9", 
         "version_code": 872110009, 
+        "beta": true
+    },
+    {
+        "protocol": 354, 
+        "version_name": "1.11.0.10", 
+        "version_code": 872110010, 
         "beta": true
     }
 ]
