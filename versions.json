@@ -6,6 +6,69 @@
         "beta": true
     },
     {
+        "version_code": 872020007,
+        "version_name": "1.2.0.7",
+        "protocol": 131,
+        "beta": true
+    },
+    {
+        "version_code": 872020009,
+        "version_name": "1.2.0.9",
+        "protocol": 131,
+        "beta": true
+    },
+    {
+        "version_code": 872020011,
+        "version_name": "1.2.0.11",
+        "protocol": 132,
+        "beta": true
+    },
+    {
+        "version_code": 872020015,
+        "version_name": "1.2.0.15",
+        "protocol": 132,
+        "beta": true
+    },
+    {
+        "version_code": 872020018,
+        "version_name": "1.2.0.18",
+        "protocol": 133,
+        "beta": true
+    },
+    {
+        "version_code": 872020022,
+        "version_name": "1.2.0.22",
+        "protocol": 134,
+        "beta": true
+    },
+    {
+        "version_code": 872020025,
+        "version_name": "1.2.0.25",
+        "protocol": 135,
+        "beta": true
+    },
+    {
+        "version_code": 872020031,
+        "version_name": "1.2.0.31",
+        "protocol": 136,
+        "beta": true
+    },
+    {
+        "version_code": 872020081,
+        "version_name": "1.2.0.81",
+        "protocol": 137
+    },
+    {
+        "version_code": 872020101,
+        "version_name": "1.2.1.1",
+        "protocol": 137
+    },
+    {
+        "version_code": 872020203,
+        "version_name": "1.2.2.3",
+        "protocol": 137
+    },
+    {
         "version_code": 872020303,
         "version_name": "1.2.3.3",
         "protocol": 137,
