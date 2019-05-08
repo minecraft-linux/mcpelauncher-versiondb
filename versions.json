@@ -1,5 +1,11 @@
 [
     {
+        "version_code": 871170001,
+        "version_name": "0.17.0.1",
+        "protocol": 91,
+        "beta": true
+    },
+    {
         "version_code": 871170002,
         "version_name": "0.17.0.2",
         "protocol": 91,
