@@ -800,5 +800,11 @@
         "version_name": "1.12.0.14",
         "protocol": 361,
         "beta": true
+    },
+    {
+        "version_code": 872130001,
+        "version_name": "1.13.0.1",
+        "protocol": 370,
+        "beta": true
     }
 ]
