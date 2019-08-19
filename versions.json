@@ -834,5 +834,11 @@
         "version_name": "1.13.0.4",
         "protocol": 371,
         "beta": true
+    },
+    {
+        "version_code": 872130006,
+        "version_name": "1.13.0.6",
+        "protocol": 371,
+        "beta": true
     }
 ]
