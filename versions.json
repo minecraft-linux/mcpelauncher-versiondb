@@ -845,5 +845,25 @@
         "version_name": "1.13.0.6",
         "protocol": 371,
         "beta": true
+    },
+    {
+        "version_code": 942130034,
+        "version_name": "1.13.0.34",
+        "protocol": 0
+    },
+    {
+        "version_code": 942130105,
+        "version_name": "1.13.1.5",
+        "protocol": 0
+    },
+    {
+        "version_code": 942140009,
+        "version_name": "1.14.0.9",
+        "protocol": 0
+    },
+    {
+        "version_code": 942140105,
+        "version_name": "1.14.1.5",
+        "protocol": 0
     }
 ]
