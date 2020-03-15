@@ -101,8 +101,7 @@
     {
         "version_code": 780110015,
         "version_name": "0.11.0",
-        "protocol": 0,
-        "beta": true
+        "protocol": 0
     },
     {
         "version_code": 780120101,
