@@ -274,65 +274,6 @@
         "protocol": 0
     },
     {
-        "version_code": 872150102,
-        "version_name": "0.15.1.2",
-        "protocol": 0
-    },
-    {
-        "version_code": 872150302,
-        "version_name": "0.15.3.2",
-        "protocol": 0
-    },
-    {
-        "version_code": 872150400,
-        "version_name": "0.15.4.0",
-        "protocol": 0
-    },
-    {
-        "version_code": 872150600,
-        "version_name": "0.15.6.0",
-        "protocol": 0
-    },
-    {
-        "version_code": 872159007,
-        "version_name": "0.15.90.7",
-        "protocol": 0,
-        "beta": true
-    },
-    {
-        "version_code": 872159008,
-        "version_name": "0.15.90.8",
-        "protocol": 0,
-        "beta": true
-    },
-    {
-        "version_code": 872160005,
-        "version_name": "0.16.0.5",
-        "protocol": 0
-    },
-    {
-        "version_code": 872160100,
-        "version_name": "0.16.1.0",
-        "protocol": 0
-    },
-    {
-        "version_code": 872160202,
-        "version_name": "0.16.2.2",
-        "protocol": 0
-    },
-    {
-        "version_code": 872170001,
-        "version_name": "0.17.0.1",
-        "protocol": 91,
-        "beta": true
-    },
-    {
-        "version_code": 872170002,
-        "version_name": "0.17.0.2",
-        "protocol": 91,
-        "beta": true
-    },
-    {
         "version_code": 872000000,
         "version_name": "1.0.0.0",
         "protocol": 92,
@@ -1175,6 +1116,65 @@
         "beta": true
     },
     {
+        "version_code": 872150102,
+        "version_name": "0.15.1.2",
+        "protocol": 0
+    },
+    {
+        "version_code": 872150302,
+        "version_name": "0.15.3.2",
+        "protocol": 0
+    },
+    {
+        "version_code": 872150400,
+        "version_name": "0.15.4.0",
+        "protocol": 0
+    },
+    {
+        "version_code": 872150600,
+        "version_name": "0.15.6.0",
+        "protocol": 0
+    },
+    {
+        "version_code": 872159007,
+        "version_name": "0.15.90.7",
+        "protocol": 0,
+        "beta": true
+    },
+    {
+        "version_code": 872159008,
+        "version_name": "0.15.90.8",
+        "protocol": 0,
+        "beta": true
+    },
+    {
+        "version_code": 872160005,
+        "version_name": "0.16.0.5",
+        "protocol": 0
+    },
+    {
+        "version_code": 872160100,
+        "version_name": "0.16.1.0",
+        "protocol": 0
+    },
+    {
+        "version_code": 872160202,
+        "version_name": "0.16.2.2",
+        "protocol": 0
+    },
+    {
+        "version_code": 872170001,
+        "version_name": "0.17.0.1",
+        "protocol": 91,
+        "beta": true
+    },
+    {
+        "version_code": 872170002,
+        "version_name": "0.17.0.2",
+        "protocol": 91,
+        "beta": true
+    },
+    {
         "version_code": 942130016,
         "version_name": "1.13.0.16",
         "protocol": 0,
@@ -1304,6 +1304,11 @@
         "version_name": "1.14.30.51",
         "protocol": 0,
         "beta": true
+    },
+    {
+        "version_code": 942146005,
+        "version_name": "1.14.60.5",
+        "protocol": 0
     },
     {
         "version_code": 942150051,
