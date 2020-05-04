@@ -41,15 +41,14 @@ class VersionList:
                 self.versions[idx]["codes"][arch] = code
                 inserted = True
                 break
-            if arch in val["codes"] and val["codes"][arch] > code:
-                self.versions.insert(idx, obj)
-                inserted = True
-                break
         if not inserted:
             self.versions.append(obj)
+        self.sort()
+        
+    def sort(self):
         b = re.compile(r"^([0-9])\.")
         m = re.compile(r"\.([0-9])\.")
-        e = re.compile(r"\.([0-9])$")
+        e = re.compile(r"\.b?([0-9])$")
         self.versions.sort(key=lambda x: e.sub(r".0\1", m.sub(r".0\1.", m.sub(r".0\1.", b.sub(r"0\1.", x["version_name"])))))
 
     def importLegacy(self, path, arch):

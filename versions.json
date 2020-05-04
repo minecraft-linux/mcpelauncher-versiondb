@@ -2,132 +2,43 @@
     {
         "version_name": "0.8.0.10",
         "codes": {
-            "x86": 700800010,
-            "armeabi-v7a": 500800010
+            "armeabi-v7a": 500800010,
+            "x86": 700800010
         }
     },
     {
         "version_name": "0.8.1",
         "codes": {
-            "x86": 700801011,
-            "armeabi-v7a": 500801011
+            "armeabi-v7a": 500801011,
+            "x86": 700801011
         }
     },
     {
         "version_name": "0.10.0",
         "codes": {
-            "x86": 780100000,
-            "armeabi-v7a": 740100000
+            "armeabi-v7a": 740100000,
+            "x86": 780100000
         }
     },
     {
         "version_name": "0.11.0",
         "codes": {
-            "x86": 780110015,
-            "armeabi-v7a": 740110015
+            "armeabi-v7a": 740110015,
+            "x86": 780110015
         }
     },
     {
         "version_name": "0.11.0.b1",
         "codes": {
-            "x86": 780110001,
-            "armeabi-v7a": 740110001
-        },
-        "beta": true
-    },
-    {
-        "version_name": "0.11.0.b1",
-        "codes": {
+            "armeabi-v7a": 740110001,
             "x86": 780110001
         },
         "beta": true
     },
     {
-        "version_name": "0.11.0.b10",
-        "codes": {
-            "x86": 780110010,
-            "armeabi-v7a": 740110010
-        },
-        "beta": true
-    },
-    {
-        "version_name": "0.11.0.b10",
-        "codes": {
-            "x86": 780110010
-        },
-        "beta": true
-    },
-    {
-        "version_name": "0.11.0.b11",
-        "codes": {
-            "x86": 780110011,
-            "armeabi-v7a": 740110011
-        },
-        "beta": true
-    },
-    {
-        "version_name": "0.11.0.b11",
-        "codes": {
-            "x86": 780110011
-        },
-        "beta": true
-    },
-    {
-        "version_name": "0.11.0.b12",
-        "codes": {
-            "x86": 780110012,
-            "armeabi-v7a": 740110012
-        },
-        "beta": true
-    },
-    {
-        "version_name": "0.11.0.b12",
-        "codes": {
-            "x86": 780110012
-        },
-        "beta": true
-    },
-    {
-        "version_name": "0.11.0.b13",
-        "codes": {
-            "x86": 780110013,
-            "armeabi-v7a": 740110013
-        },
-        "beta": true
-    },
-    {
-        "version_name": "0.11.0.b13",
-        "codes": {
-            "x86": 780110013
-        },
-        "beta": true
-    },
-    {
-        "version_name": "0.11.0.b14",
-        "codes": {
-            "x86": 780110014,
-            "armeabi-v7a": 740110014
-        },
-        "beta": true
-    },
-    {
-        "version_name": "0.11.0.b14",
-        "codes": {
-            "x86": 780110014
-        },
-        "beta": true
-    },
-    {
         "version_name": "0.11.0.b2",
         "codes": {
-            "x86": 780110002,
-            "armeabi-v7a": 740110002
-        },
-        "beta": true
-    },
-    {
-        "version_name": "0.11.0.b2",
-        "codes": {
+            "armeabi-v7a": 740110002,
             "x86": 780110002
         },
         "beta": true
@@ -135,14 +46,7 @@
     {
         "version_name": "0.11.0.b3",
         "codes": {
-            "x86": 780110003,
-            "armeabi-v7a": 740110003
-        },
-        "beta": true
-    },
-    {
-        "version_name": "0.11.0.b3",
-        "codes": {
+            "armeabi-v7a": 740110003,
             "x86": 780110003
         },
         "beta": true
@@ -150,14 +54,7 @@
     {
         "version_name": "0.11.0.b4",
         "codes": {
-            "x86": 780110004,
-            "armeabi-v7a": 740110004
-        },
-        "beta": true
-    },
-    {
-        "version_name": "0.11.0.b4",
-        "codes": {
+            "armeabi-v7a": 740110004,
             "x86": 780110004
         },
         "beta": true
@@ -165,14 +62,7 @@
     {
         "version_name": "0.11.0.b5",
         "codes": {
-            "x86": 780110005,
-            "armeabi-v7a": 740110005
-        },
-        "beta": true
-    },
-    {
-        "version_name": "0.11.0.b5",
-        "codes": {
+            "armeabi-v7a": 740110005,
             "x86": 780110005
         },
         "beta": true
@@ -180,14 +70,7 @@
     {
         "version_name": "0.11.0.b6",
         "codes": {
-            "x86": 780110006,
-            "armeabi-v7a": 740110006
-        },
-        "beta": true
-    },
-    {
-        "version_name": "0.11.0.b6",
-        "codes": {
+            "armeabi-v7a": 740110006,
             "x86": 780110006
         },
         "beta": true
@@ -195,14 +78,7 @@
     {
         "version_name": "0.11.0.b7",
         "codes": {
-            "x86": 780110007,
-            "armeabi-v7a": 740110007
-        },
-        "beta": true
-    },
-    {
-        "version_name": "0.11.0.b7",
-        "codes": {
+            "armeabi-v7a": 740110007,
             "x86": 780110007
         },
         "beta": true
@@ -210,14 +86,7 @@
     {
         "version_name": "0.11.0.b8",
         "codes": {
-            "x86": 780110008,
-            "armeabi-v7a": 740110008
-        },
-        "beta": true
-    },
-    {
-        "version_name": "0.11.0.b8",
-        "codes": {
+            "armeabi-v7a": 740110008,
             "x86": 780110008
         },
         "beta": true
@@ -225,111 +94,70 @@
     {
         "version_name": "0.11.0.b9",
         "codes": {
-            "x86": 780110009,
-            "armeabi-v7a": 740110009
+            "armeabi-v7a": 740110009,
+            "x86": 780110009
         },
         "beta": true
     },
     {
-        "version_name": "0.11.0.b9",
+        "version_name": "0.11.0.b10",
         "codes": {
-            "x86": 780110009
+            "armeabi-v7a": 740110010,
+            "x86": 780110010
+        },
+        "beta": true
+    },
+    {
+        "version_name": "0.11.0.b11",
+        "codes": {
+            "armeabi-v7a": 740110011,
+            "x86": 780110011
+        },
+        "beta": true
+    },
+    {
+        "version_name": "0.11.0.b12",
+        "codes": {
+            "armeabi-v7a": 740110012,
+            "x86": 780110012
+        },
+        "beta": true
+    },
+    {
+        "version_name": "0.11.0.b13",
+        "codes": {
+            "armeabi-v7a": 740110013,
+            "x86": 780110013
+        },
+        "beta": true
+    },
+    {
+        "version_name": "0.11.0.b14",
+        "codes": {
+            "armeabi-v7a": 740110014,
+            "x86": 780110014
         },
         "beta": true
     },
     {
         "version_name": "0.12.1",
         "codes": {
-            "x86": 780120114,
-            "armeabi-v7a": 740120114
+            "armeabi-v7a": 740120114,
+            "x86": 780120114
         }
     },
     {
         "version_name": "0.12.1.b1",
         "codes": {
-            "x86": 780120101,
-            "armeabi-v7a": 740120101
-        },
-        "beta": true
-    },
-    {
-        "version_name": "0.12.1.b1",
-        "codes": {
+            "armeabi-v7a": 740120101,
             "x86": 780120101
         },
         "beta": true
     },
     {
-        "version_name": "0.12.1.b10",
-        "codes": {
-            "x86": 780120110,
-            "armeabi-v7a": 740120110
-        },
-        "beta": true
-    },
-    {
-        "version_name": "0.12.1.b10",
-        "codes": {
-            "x86": 780120110
-        },
-        "beta": true
-    },
-    {
-        "version_name": "0.12.1.b11",
-        "codes": {
-            "x86": 780120111,
-            "armeabi-v7a": 740120111
-        },
-        "beta": true
-    },
-    {
-        "version_name": "0.12.1.b11",
-        "codes": {
-            "x86": 780120111
-        },
-        "beta": true
-    },
-    {
-        "version_name": "0.12.1.b12",
-        "codes": {
-            "x86": 780120112,
-            "armeabi-v7a": 740120112
-        },
-        "beta": true
-    },
-    {
-        "version_name": "0.12.1.b12",
-        "codes": {
-            "x86": 780120112
-        },
-        "beta": true
-    },
-    {
-        "version_name": "0.12.1.b13",
-        "codes": {
-            "x86": 780120113,
-            "armeabi-v7a": 740120113
-        },
-        "beta": true
-    },
-    {
-        "version_name": "0.12.1.b13",
-        "codes": {
-            "x86": 780120113
-        },
-        "beta": true
-    },
-    {
         "version_name": "0.12.1.b2",
         "codes": {
-            "x86": 780120102,
-            "armeabi-v7a": 740120102
-        },
-        "beta": true
-    },
-    {
-        "version_name": "0.12.1.b2",
-        "codes": {
+            "armeabi-v7a": 740120102,
             "x86": 780120102
         },
         "beta": true
@@ -337,14 +165,7 @@
     {
         "version_name": "0.12.1.b3",
         "codes": {
-            "x86": 780120103,
-            "armeabi-v7a": 740120103
-        },
-        "beta": true
-    },
-    {
-        "version_name": "0.12.1.b3",
-        "codes": {
+            "armeabi-v7a": 740120103,
             "x86": 780120103
         },
         "beta": true
@@ -352,14 +173,7 @@
     {
         "version_name": "0.12.1.b4",
         "codes": {
-            "x86": 780120104,
-            "armeabi-v7a": 740120104
-        },
-        "beta": true
-    },
-    {
-        "version_name": "0.12.1.b4",
-        "codes": {
+            "armeabi-v7a": 740120104,
             "x86": 780120104
         },
         "beta": true
@@ -367,14 +181,7 @@
     {
         "version_name": "0.12.1.b5",
         "codes": {
-            "x86": 780120105,
-            "armeabi-v7a": 740120105
-        },
-        "beta": true
-    },
-    {
-        "version_name": "0.12.1.b5",
-        "codes": {
+            "armeabi-v7a": 740120105,
             "x86": 780120105
         },
         "beta": true
@@ -382,14 +189,7 @@
     {
         "version_name": "0.12.1.b6",
         "codes": {
-            "x86": 780120106,
-            "armeabi-v7a": 740120106
-        },
-        "beta": true
-    },
-    {
-        "version_name": "0.12.1.b6",
-        "codes": {
+            "armeabi-v7a": 740120106,
             "x86": 780120106
         },
         "beta": true
@@ -397,14 +197,7 @@
     {
         "version_name": "0.12.1.b7",
         "codes": {
-            "x86": 780120107,
-            "armeabi-v7a": 740120107
-        },
-        "beta": true
-    },
-    {
-        "version_name": "0.12.1.b7",
-        "codes": {
+            "armeabi-v7a": 740120107,
             "x86": 780120107
         },
         "beta": true
@@ -412,14 +205,7 @@
     {
         "version_name": "0.12.1.b8",
         "codes": {
-            "x86": 780120108,
-            "armeabi-v7a": 740120108
-        },
-        "beta": true
-    },
-    {
-        "version_name": "0.12.1.b8",
-        "codes": {
+            "armeabi-v7a": 740120108,
             "x86": 780120108
         },
         "beta": true
@@ -427,71 +213,89 @@
     {
         "version_name": "0.12.1.b9",
         "codes": {
-            "x86": 780120109,
-            "armeabi-v7a": 740120109
+            "armeabi-v7a": 740120109,
+            "x86": 780120109
         },
         "beta": true
     },
     {
-        "version_name": "0.12.1.b9",
+        "version_name": "0.12.1.b10",
         "codes": {
-            "x86": 780120109
+            "armeabi-v7a": 740120110,
+            "x86": 780120110
+        },
+        "beta": true
+    },
+    {
+        "version_name": "0.12.1.b11",
+        "codes": {
+            "armeabi-v7a": 740120111,
+            "x86": 780120111
+        },
+        "beta": true
+    },
+    {
+        "version_name": "0.12.1.b12",
+        "codes": {
+            "armeabi-v7a": 740120112,
+            "x86": 780120112
+        },
+        "beta": true
+    },
+    {
+        "version_name": "0.12.1.b13",
+        "codes": {
+            "armeabi-v7a": 740120113,
+            "x86": 780120113
         },
         "beta": true
     },
     {
         "version_name": "0.12.2",
         "codes": {
-            "x86": 780120200,
-            "armeabi-v7a": 740120200
+            "armeabi-v7a": 740120200,
+            "x86": 780120200
         }
     },
     {
         "version_name": "0.12.3",
         "codes": {
-            "x86": 780120300,
-            "armeabi-v7a": 740120300
+            "armeabi-v7a": 740120300,
+            "x86": 780120300
         }
     },
     {
         "version_name": "0.13.0",
         "codes": {
-            "x86": 780130000,
-            "armeabi-v7a": 740130000
+            "armeabi-v7a": 740130000,
+            "x86": 780130000
         }
     },
     {
         "version_name": "0.13.1",
         "codes": {
-            "x86": 780130100,
-            "armeabi-v7a": 740130100
+            "armeabi-v7a": 740130100,
+            "x86": 780130100
         }
     },
     {
         "version_name": "0.13.2",
         "codes": {
-            "x86": 780130200,
-            "armeabi-v7a": 740130200
+            "armeabi-v7a": 740130200,
+            "x86": 780130200
         }
     },
     {
         "version_name": "0.14.0",
         "codes": {
-            "x86": 780140009,
-            "armeabi-v7a": 740140009
+            "armeabi-v7a": 740140009,
+            "x86": 780140009
         }
     },
     {
         "version_name": "0.14.0.b1",
         "codes": {
-            "x86": 780140001,
-            "armeabi-v7a": 740140001
-        },
-        "beta": true
-    },
-    {
-        "version_name": "0.14.0.b1",
-        "codes": {
+            "armeabi-v7a": 740140001,
             "x86": 780140001
         },
         "beta": true
@@ -499,14 +303,7 @@
     {
         "version_name": "0.14.0.b2",
         "codes": {
-            "x86": 780140002,
-            "armeabi-v7a": 740140002
-        },
-        "beta": true
-    },
-    {
-        "version_name": "0.14.0.b2",
-        "codes": {
+            "armeabi-v7a": 740140002,
             "x86": 780140002
         },
         "beta": true
@@ -514,14 +311,7 @@
     {
         "version_name": "0.14.0.b3",
         "codes": {
-            "x86": 780140003,
-            "armeabi-v7a": 740140003
-        },
-        "beta": true
-    },
-    {
-        "version_name": "0.14.0.b3",
-        "codes": {
+            "armeabi-v7a": 740140003,
             "x86": 780140003
         },
         "beta": true
@@ -529,14 +319,7 @@
     {
         "version_name": "0.14.0.b4",
         "codes": {
-            "x86": 780140004,
-            "armeabi-v7a": 740140004
-        },
-        "beta": true
-    },
-    {
-        "version_name": "0.14.0.b4",
-        "codes": {
+            "armeabi-v7a": 740140004,
             "x86": 780140004
         },
         "beta": true
@@ -544,14 +327,7 @@
     {
         "version_name": "0.14.0.b5",
         "codes": {
-            "x86": 780140005,
-            "armeabi-v7a": 740140005
-        },
-        "beta": true
-    },
-    {
-        "version_name": "0.14.0.b5",
-        "codes": {
+            "armeabi-v7a": 740140005,
             "x86": 780140005
         },
         "beta": true
@@ -559,14 +335,7 @@
     {
         "version_name": "0.14.0.b6",
         "codes": {
-            "x86": 780140006,
-            "armeabi-v7a": 740140006
-        },
-        "beta": true
-    },
-    {
-        "version_name": "0.14.0.b6",
-        "codes": {
+            "armeabi-v7a": 740140006,
             "x86": 780140006
         },
         "beta": true
@@ -574,14 +343,7 @@
     {
         "version_name": "0.14.0.b7",
         "codes": {
-            "x86": 780140007,
-            "armeabi-v7a": 740140007
-        },
-        "beta": true
-    },
-    {
-        "version_name": "0.14.0.b7",
-        "codes": {
+            "armeabi-v7a": 740140007,
             "x86": 780140007
         },
         "beta": true
@@ -589,116 +351,109 @@
     {
         "version_name": "0.14.1",
         "codes": {
-            "x86": 780140100,
-            "armeabi-v7a": 740140100
+            "armeabi-v7a": 740140100,
+            "x86": 780140100
         }
     },
     {
         "version_name": "0.14.2",
         "codes": {
-            "x86": 780140200,
-            "armeabi-v7a": 740140200
+            "armeabi-v7a": 740140200,
+            "x86": 780140200
         }
     },
     {
         "version_name": "0.14.3",
         "codes": {
-            "x86": 780140300,
-            "armeabi-v7a": 740140300
+            "armeabi-v7a": 740140300,
+            "x86": 780140300
         }
     },
     {
         "version_name": "0.15.1.2",
         "codes": {
-            "x86": 872150102,
-            "armeabi-v7a": 870150102
+            "armeabi-v7a": 870150102,
+            "x86": 871150102
         }
     },
     {
         "version_name": "0.15.3.2",
         "codes": {
-            "x86": 872150302,
-            "armeabi-v7a": 870150302
+            "armeabi-v7a": 870150302,
+            "x86": 871150302
         }
     },
     {
         "version_name": "0.15.4.0",
         "codes": {
-            "x86": 872150400,
-            "armeabi-v7a": 870150400
+            "armeabi-v7a": 870150400,
+            "x86": 871150400
         }
     },
     {
         "version_name": "0.15.6.0",
         "codes": {
-            "x86": 872150600,
-            "armeabi-v7a": 870150600
+            "armeabi-v7a": 870150600,
+            "x86": 871150600
         }
     },
     {
         "version_name": "0.15.90.7",
         "codes": {
-            "x86": 872159007,
-            "armeabi-v7a": 870159007
+            "armeabi-v7a": 870159007,
+            "x86": 871159007
         },
         "beta": true
     },
     {
         "version_name": "0.15.90.8",
         "codes": {
-            "x86": 872159008,
-            "armeabi-v7a": 870159008
+            "armeabi-v7a": 870159008,
+            "x86": 871159008
         },
         "beta": true
     },
     {
         "version_name": "0.16.0.5",
         "codes": {
-            "x86": 872160005,
-            "armeabi-v7a": 870160005
+            "armeabi-v7a": 870160005,
+            "x86": 871160005
         }
     },
     {
         "version_name": "0.16.1.0",
         "codes": {
-            "x86": 872160100,
-            "armeabi-v7a": 870160100
+            "armeabi-v7a": 870160100,
+            "x86": 871160100
         }
     },
     {
         "version_name": "0.16.2.2",
         "codes": {
-            "x86": 872160202,
-            "armeabi-v7a": 870160202
+            "armeabi-v7a": 870160202,
+            "x86": 871160202
         }
     },
     {
         "version_name": "0.17.0.1",
         "codes": {
-            "x86": 872170001,
-            "armeabi-v7a": 870170001
+            "armeabi-v7a": 870170001,
+            "x86": 871170001
         },
         "beta": true
     },
     {
         "version_name": "0.17.0.2",
         "codes": {
-            "x86": 872170002,
-            "armeabi-v7a": 870170002
+            "armeabi-v7a": 870170002,
+            "x86": 871170002
         },
         "beta": true
     },
     {
         "version_name": "1.0.0.0",
         "codes": {
-            "x86": 872000000,
-            "armeabi-v7a": 871000000
-        },
-        "beta": true
-    },
-    {
-        "version_name": "1.0.0.0",
-        "codes": {
+            "armeabi-v7a": 871000000,
             "x86": 872000000
         },
         "beta": true
@@ -706,14 +461,7 @@
     {
         "version_name": "1.0.0.1",
         "codes": {
-            "x86": 872000001,
-            "armeabi-v7a": 871000001
-        },
-        "beta": true
-    },
-    {
-        "version_name": "1.0.0.1",
-        "codes": {
+            "armeabi-v7a": 871000001,
             "x86": 872000001
         },
         "beta": true
@@ -721,14 +469,7 @@
     {
         "version_name": "1.0.0.2",
         "codes": {
-            "x86": 872000002,
-            "armeabi-v7a": 871000002
-        },
-        "beta": true
-    },
-    {
-        "version_name": "1.0.0.2",
-        "codes": {
+            "armeabi-v7a": 871000002,
             "x86": 872000002
         },
         "beta": true
@@ -736,14 +477,7 @@
     {
         "version_name": "1.0.0.7",
         "codes": {
-            "x86": 872000007,
-            "armeabi-v7a": 871000007
-        },
-        "beta": true
-    },
-    {
-        "version_name": "1.0.0.7",
-        "codes": {
+            "armeabi-v7a": 871000007,
             "x86": 872000007
         },
         "beta": true
@@ -751,40 +485,21 @@
     {
         "version_name": "1.0.0.16",
         "codes": {
-            "x86": 872000016,
-            "armeabi-v7a": 871000016
-        }
-    },
-    {
-        "version_name": "1.0.0.16",
-        "codes": {
+            "armeabi-v7a": 871000016,
             "x86": 872000016
         }
     },
     {
         "version_name": "1.0.2.1",
         "codes": {
-            "x86": 872000201,
-            "armeabi-v7a": 871000201
-        }
-    },
-    {
-        "version_name": "1.0.2.1",
-        "codes": {
+            "armeabi-v7a": 871000201,
             "x86": 872000201
         }
     },
     {
         "version_name": "1.0.3.0",
         "codes": {
-            "x86": 872000300,
-            "armeabi-v7a": 871000300
-        },
-        "beta": true
-    },
-    {
-        "version_name": "1.0.3.0",
-        "codes": {
+            "armeabi-v7a": 871000300,
             "x86": 872000300
         },
         "beta": true
@@ -792,27 +507,14 @@
     {
         "version_name": "1.0.3.12",
         "codes": {
-            "x86": 872000312,
-            "armeabi-v7a": 871000312
-        }
-    },
-    {
-        "version_name": "1.0.3.12",
-        "codes": {
+            "armeabi-v7a": 871000312,
             "x86": 872000312
         }
     },
     {
         "version_name": "1.0.4.0",
         "codes": {
-            "x86": 872000400,
-            "armeabi-v7a": 871000400
-        },
-        "beta": true
-    },
-    {
-        "version_name": "1.0.4.0",
-        "codes": {
+            "armeabi-v7a": 871000400,
             "x86": 872000400
         },
         "beta": true
@@ -820,14 +522,7 @@
     {
         "version_name": "1.0.4.1",
         "codes": {
-            "x86": 872000401,
-            "armeabi-v7a": 871000401
-        },
-        "beta": true
-    },
-    {
-        "version_name": "1.0.4.1",
-        "codes": {
+            "armeabi-v7a": 871000401,
             "x86": 872000401
         },
         "beta": true
@@ -835,27 +530,14 @@
     {
         "version_name": "1.0.4.11",
         "codes": {
-            "x86": 872000411,
-            "armeabi-v7a": 871000411
-        }
-    },
-    {
-        "version_name": "1.0.4.11",
-        "codes": {
+            "armeabi-v7a": 871000411,
             "x86": 872000411
         }
     },
     {
         "version_name": "1.0.5.0",
         "codes": {
-            "x86": 872000500,
-            "armeabi-v7a": 871000500
-        },
-        "beta": true
-    },
-    {
-        "version_name": "1.0.5.0",
-        "codes": {
+            "armeabi-v7a": 871000500,
             "x86": 872000500
         },
         "beta": true
@@ -863,14 +545,7 @@
     {
         "version_name": "1.0.5.3",
         "codes": {
-            "x86": 872000503,
-            "armeabi-v7a": 871000503
-        },
-        "beta": true
-    },
-    {
-        "version_name": "1.0.5.3",
-        "codes": {
+            "armeabi-v7a": 871000503,
             "x86": 872000503
         },
         "beta": true
@@ -878,53 +553,28 @@
     {
         "version_name": "1.0.5.11",
         "codes": {
-            "x86": 872000511,
-            "armeabi-v7a": 871000511
-        }
-    },
-    {
-        "version_name": "1.0.5.11",
-        "codes": {
+            "armeabi-v7a": 871000511,
             "x86": 872000511
         }
     },
     {
         "version_name": "1.0.5.13",
         "codes": {
-            "x86": 872000513,
-            "armeabi-v7a": 871000513
-        }
-    },
-    {
-        "version_name": "1.0.5.13",
-        "codes": {
+            "armeabi-v7a": 871000513,
             "x86": 872000513
         }
     },
     {
         "version_name": "1.0.5.54",
         "codes": {
-            "x86": 872000554,
-            "armeabi-v7a": 871000554
-        }
-    },
-    {
-        "version_name": "1.0.5.54",
-        "codes": {
+            "armeabi-v7a": 871000554,
             "x86": 872000554
         }
     },
     {
         "version_name": "1.0.6.0",
         "codes": {
-            "x86": 872000600,
-            "armeabi-v7a": 871000600
-        },
-        "beta": true
-    },
-    {
-        "version_name": "1.0.6.0",
-        "codes": {
+            "armeabi-v7a": 871000600,
             "x86": 872000600
         },
         "beta": true
@@ -932,66 +582,35 @@
     {
         "version_name": "1.0.6.52",
         "codes": {
-            "x86": 872000652,
-            "armeabi-v7a": 871000652
-        }
-    },
-    {
-        "version_name": "1.0.6.52",
-        "codes": {
+            "armeabi-v7a": 871000652,
             "x86": 872000652
         }
     },
     {
         "version_name": "1.0.7.0",
         "codes": {
-            "x86": 872000700,
-            "armeabi-v7a": 871000700
-        }
-    },
-    {
-        "version_name": "1.0.7.0",
-        "codes": {
+            "armeabi-v7a": 871000700,
             "x86": 872000700
         }
     },
     {
         "version_name": "1.0.8.1",
         "codes": {
-            "x86": 872000801,
-            "armeabi-v7a": 871000801
-        }
-    },
-    {
-        "version_name": "1.0.8.1",
-        "codes": {
+            "armeabi-v7a": 871000801,
             "x86": 872000801
         }
     },
     {
         "version_name": "1.0.9.1",
         "codes": {
-            "x86": 872000901,
-            "armeabi-v7a": 871000901
-        }
-    },
-    {
-        "version_name": "1.0.9.1",
-        "codes": {
+            "armeabi-v7a": 871000901,
             "x86": 872000901
         }
     },
     {
         "version_name": "1.1.0.0",
         "codes": {
-            "x86": 872010000,
-            "armeabi-v7a": 871010000
-        },
-        "beta": true
-    },
-    {
-        "version_name": "1.1.0.0",
-        "codes": {
+            "armeabi-v7a": 871010000,
             "x86": 872010000
         },
         "beta": true
@@ -999,14 +618,7 @@
     {
         "version_name": "1.1.0.1",
         "codes": {
-            "x86": 872010001,
-            "armeabi-v7a": 871010001
-        },
-        "beta": true
-    },
-    {
-        "version_name": "1.1.0.1",
-        "codes": {
+            "armeabi-v7a": 871010001,
             "x86": 872010001
         },
         "beta": true
@@ -1014,14 +626,7 @@
     {
         "version_name": "1.1.0.3",
         "codes": {
-            "x86": 872010003,
-            "armeabi-v7a": 871010003
-        },
-        "beta": true
-    },
-    {
-        "version_name": "1.1.0.3",
-        "codes": {
+            "armeabi-v7a": 871010003,
             "x86": 872010003
         },
         "beta": true
@@ -1029,14 +634,7 @@
     {
         "version_name": "1.1.0.4",
         "codes": {
-            "x86": 872010004,
-            "armeabi-v7a": 871010004
-        },
-        "beta": true
-    },
-    {
-        "version_name": "1.1.0.4",
-        "codes": {
+            "armeabi-v7a": 871010004,
             "x86": 872010004
         },
         "beta": true
@@ -1044,14 +642,7 @@
     {
         "version_name": "1.1.0.5",
         "codes": {
-            "x86": 872010005,
-            "armeabi-v7a": 871010005
-        },
-        "beta": true
-    },
-    {
-        "version_name": "1.1.0.5",
-        "codes": {
+            "armeabi-v7a": 871010005,
             "x86": 872010005
         },
         "beta": true
@@ -1059,14 +650,7 @@
     {
         "version_name": "1.1.0.8",
         "codes": {
-            "x86": 872010008,
-            "armeabi-v7a": 871010008
-        },
-        "beta": true
-    },
-    {
-        "version_name": "1.1.0.8",
-        "codes": {
+            "armeabi-v7a": 871010008,
             "x86": 872010008
         },
         "beta": true
@@ -1074,14 +658,7 @@
     {
         "version_name": "1.1.0.9",
         "codes": {
-            "x86": 872010009,
-            "armeabi-v7a": 871010009
-        },
-        "beta": true
-    },
-    {
-        "version_name": "1.1.0.9",
-        "codes": {
+            "armeabi-v7a": 871010009,
             "x86": 872010009
         },
         "beta": true
@@ -1089,27 +666,14 @@
     {
         "version_name": "1.1.0.55",
         "codes": {
-            "x86": 872010055,
-            "armeabi-v7a": 871010055
-        }
-    },
-    {
-        "version_name": "1.1.0.55",
-        "codes": {
+            "armeabi-v7a": 871010055,
             "x86": 872010055
         }
     },
     {
         "version_name": "1.1.1.0",
         "codes": {
-            "x86": 872010100,
-            "armeabi-v7a": 871010100
-        },
-        "beta": true
-    },
-    {
-        "version_name": "1.1.1.0",
-        "codes": {
+            "armeabi-v7a": 871010100,
             "x86": 872010100
         },
         "beta": true
@@ -1117,14 +681,7 @@
     {
         "version_name": "1.1.1.1",
         "codes": {
-            "x86": 872010101,
-            "armeabi-v7a": 871010101
-        },
-        "beta": true
-    },
-    {
-        "version_name": "1.1.1.1",
-        "codes": {
+            "armeabi-v7a": 871010101,
             "x86": 872010101
         },
         "beta": true
@@ -1132,40 +689,21 @@
     {
         "version_name": "1.1.1.51",
         "codes": {
-            "x86": 872010151,
-            "armeabi-v7a": 871010151
-        }
-    },
-    {
-        "version_name": "1.1.1.51",
-        "codes": {
+            "armeabi-v7a": 871010151,
             "x86": 872010151
         }
     },
     {
         "version_name": "1.1.2.50",
         "codes": {
-            "x86": 872010250,
-            "armeabi-v7a": 871010250
-        }
-    },
-    {
-        "version_name": "1.1.2.50",
-        "codes": {
+            "armeabi-v7a": 871010250,
             "x86": 872010250
         }
     },
     {
         "version_name": "1.1.3.0",
         "codes": {
-            "x86": 872010300,
-            "armeabi-v7a": 871010300
-        },
-        "beta": true
-    },
-    {
-        "version_name": "1.1.3.0",
-        "codes": {
+            "armeabi-v7a": 871010300,
             "x86": 872010300
         },
         "beta": true
@@ -1173,14 +711,7 @@
     {
         "version_name": "1.1.3.1",
         "codes": {
-            "x86": 872010301,
-            "armeabi-v7a": 871010301
-        },
-        "beta": true
-    },
-    {
-        "version_name": "1.1.3.1",
-        "codes": {
+            "armeabi-v7a": 871010301,
             "x86": 872010301
         },
         "beta": true
@@ -1188,53 +719,28 @@
     {
         "version_name": "1.1.3.52",
         "codes": {
-            "x86": 872010352,
-            "armeabi-v7a": 871010352
-        }
-    },
-    {
-        "version_name": "1.1.3.52",
-        "codes": {
+            "armeabi-v7a": 871010352,
             "x86": 872010352
         }
     },
     {
         "version_name": "1.1.4.51",
         "codes": {
-            "x86": 872010451,
-            "armeabi-v7a": 871010451
-        }
-    },
-    {
-        "version_name": "1.1.4.51",
-        "codes": {
+            "armeabi-v7a": 871010451,
             "x86": 872010451
         }
     },
     {
         "version_name": "1.1.5.0",
         "codes": {
-            "x86": 872010500,
-            "armeabi-v7a": 871010500
-        }
-    },
-    {
-        "version_name": "1.1.5.0",
-        "codes": {
+            "armeabi-v7a": 871010500,
             "x86": 872010500
         }
     },
     {
         "version_name": "1.2.0.2",
         "codes": {
-            "x86": 872020002,
-            "armeabi-v7a": 871020002
-        },
-        "beta": true
-    },
-    {
-        "version_name": "1.2.0.2",
-        "codes": {
+            "armeabi-v7a": 871020002,
             "x86": 872020002
         },
         "beta": true
@@ -1242,14 +748,7 @@
     {
         "version_name": "1.2.0.7",
         "codes": {
-            "x86": 872020007,
-            "armeabi-v7a": 871020007
-        },
-        "beta": true
-    },
-    {
-        "version_name": "1.2.0.7",
-        "codes": {
+            "armeabi-v7a": 871020007,
             "x86": 872020007
         },
         "beta": true
@@ -1257,14 +756,7 @@
     {
         "version_name": "1.2.0.9",
         "codes": {
-            "x86": 872020009,
-            "armeabi-v7a": 871020009
-        },
-        "beta": true
-    },
-    {
-        "version_name": "1.2.0.9",
-        "codes": {
+            "armeabi-v7a": 871020009,
             "x86": 872020009
         },
         "beta": true
@@ -1272,14 +764,7 @@
     {
         "version_name": "1.2.0.11",
         "codes": {
-            "x86": 872020011,
-            "armeabi-v7a": 871020011
-        },
-        "beta": true
-    },
-    {
-        "version_name": "1.2.0.11",
-        "codes": {
+            "armeabi-v7a": 871020011,
             "x86": 872020011
         },
         "beta": true
@@ -1287,14 +772,7 @@
     {
         "version_name": "1.2.0.15",
         "codes": {
-            "x86": 872020015,
-            "armeabi-v7a": 871020015
-        },
-        "beta": true
-    },
-    {
-        "version_name": "1.2.0.15",
-        "codes": {
+            "armeabi-v7a": 871020015,
             "x86": 872020015
         },
         "beta": true
@@ -1302,14 +780,7 @@
     {
         "version_name": "1.2.0.18",
         "codes": {
-            "x86": 872020018,
-            "armeabi-v7a": 871020018
-        },
-        "beta": true
-    },
-    {
-        "version_name": "1.2.0.18",
-        "codes": {
+            "armeabi-v7a": 871020018,
             "x86": 872020018
         },
         "beta": true
@@ -1317,14 +788,7 @@
     {
         "version_name": "1.2.0.22",
         "codes": {
-            "x86": 872020022,
-            "armeabi-v7a": 871020022
-        },
-        "beta": true
-    },
-    {
-        "version_name": "1.2.0.22",
-        "codes": {
+            "armeabi-v7a": 871020022,
             "x86": 872020022
         },
         "beta": true
@@ -1332,14 +796,7 @@
     {
         "version_name": "1.2.0.25",
         "codes": {
-            "x86": 872020025,
-            "armeabi-v7a": 871020025
-        },
-        "beta": true
-    },
-    {
-        "version_name": "1.2.0.25",
-        "codes": {
+            "armeabi-v7a": 871020025,
             "x86": 872020025
         },
         "beta": true
@@ -1347,14 +804,7 @@
     {
         "version_name": "1.2.0.31",
         "codes": {
-            "x86": 872020031,
-            "armeabi-v7a": 871020031
-        },
-        "beta": true
-    },
-    {
-        "version_name": "1.2.0.31",
-        "codes": {
+            "armeabi-v7a": 871020031,
             "x86": 872020031
         },
         "beta": true
@@ -1362,53 +812,28 @@
     {
         "version_name": "1.2.0.81",
         "codes": {
-            "x86": 872020081,
-            "armeabi-v7a": 871020081
-        }
-    },
-    {
-        "version_name": "1.2.0.81",
-        "codes": {
+            "armeabi-v7a": 871020081,
             "x86": 872020081
         }
     },
     {
         "version_name": "1.2.1.1",
         "codes": {
-            "x86": 872020101,
-            "armeabi-v7a": 871020101
-        }
-    },
-    {
-        "version_name": "1.2.1.1",
-        "codes": {
+            "armeabi-v7a": 871020101,
             "x86": 872020101
         }
     },
     {
         "version_name": "1.2.2.3",
         "codes": {
-            "x86": 872020203,
-            "armeabi-v7a": 871020203
-        }
-    },
-    {
-        "version_name": "1.2.2.3",
-        "codes": {
+            "armeabi-v7a": 871020203,
             "x86": 872020203
         }
     },
     {
         "version_name": "1.2.3.3",
         "codes": {
-            "x86": 872020303,
-            "armeabi-v7a": 871020303
-        },
-        "beta": true
-    },
-    {
-        "version_name": "1.2.3.3",
-        "codes": {
+            "armeabi-v7a": 871020303,
             "x86": 872020303
         },
         "beta": true
@@ -1416,27 +841,14 @@
     {
         "version_name": "1.2.3.6",
         "codes": {
-            "x86": 872020306,
-            "armeabi-v7a": 871020306
-        }
-    },
-    {
-        "version_name": "1.2.3.6",
-        "codes": {
+            "armeabi-v7a": 871020306,
             "x86": 872020306
         }
     },
     {
         "version_name": "1.2.5.0",
         "codes": {
-            "x86": 872020500,
-            "armeabi-v7a": 871020500
-        },
-        "beta": true
-    },
-    {
-        "version_name": "1.2.5.0",
-        "codes": {
+            "armeabi-v7a": 871020500,
             "x86": 872020500
         },
         "beta": true
@@ -1444,14 +856,7 @@
     {
         "version_name": "1.2.5.12",
         "codes": {
-            "x86": 872020512,
-            "armeabi-v7a": 871020512
-        },
-        "beta": true
-    },
-    {
-        "version_name": "1.2.5.12",
-        "codes": {
+            "armeabi-v7a": 871020512,
             "x86": 872020512
         },
         "beta": true
@@ -1459,14 +864,7 @@
     {
         "version_name": "1.2.5.15",
         "codes": {
-            "x86": 872020515,
-            "armeabi-v7a": 871020515
-        },
-        "beta": true
-    },
-    {
-        "version_name": "1.2.5.15",
-        "codes": {
+            "armeabi-v7a": 871020515,
             "x86": 872020515
         },
         "beta": true
@@ -1474,27 +872,14 @@
     {
         "version_name": "1.2.5.52",
         "codes": {
-            "x86": 872020552,
-            "armeabi-v7a": 871020552
-        }
-    },
-    {
-        "version_name": "1.2.5.52",
-        "codes": {
+            "armeabi-v7a": 871020552,
             "x86": 872020552
         }
     },
     {
         "version_name": "1.2.6.2",
         "codes": {
-            "x86": 872020602,
-            "armeabi-v7a": 871020602
-        },
-        "beta": true
-    },
-    {
-        "version_name": "1.2.6.2",
-        "codes": {
+            "armeabi-v7a": 871020602,
             "x86": 872020602
         },
         "beta": true
@@ -1502,79 +887,42 @@
     {
         "version_name": "1.2.6.55",
         "codes": {
-            "x86": 872020655,
-            "armeabi-v7a": 871020655
-        }
-    },
-    {
-        "version_name": "1.2.6.55",
-        "codes": {
+            "armeabi-v7a": 871020655,
             "x86": 872020655
         }
     },
     {
         "version_name": "1.2.6.60",
         "codes": {
-            "x86": 872020660,
-            "armeabi-v7a": 871020660
-        }
-    },
-    {
-        "version_name": "1.2.6.60",
-        "codes": {
+            "armeabi-v7a": 871020660,
             "x86": 872020660
         }
     },
     {
         "version_name": "1.2.7.2",
         "codes": {
-            "x86": 872020702,
-            "armeabi-v7a": 871020702
-        }
-    },
-    {
-        "version_name": "1.2.7.2",
-        "codes": {
+            "armeabi-v7a": 871020702,
             "x86": 872020702
         }
     },
     {
         "version_name": "1.2.8.0",
         "codes": {
-            "x86": 872020800,
-            "armeabi-v7a": 871020800
-        }
-    },
-    {
-        "version_name": "1.2.8.0",
-        "codes": {
+            "armeabi-v7a": 871020800,
             "x86": 872020800
         }
     },
     {
         "version_name": "1.2.9.1",
         "codes": {
-            "x86": 872020901,
-            "armeabi-v7a": 871020901
-        }
-    },
-    {
-        "version_name": "1.2.9.1",
-        "codes": {
+            "armeabi-v7a": 871020901,
             "x86": 872020901
         }
     },
     {
         "version_name": "1.2.10.1",
         "codes": {
-            "x86": 872021001,
-            "armeabi-v7a": 871021001
-        },
-        "beta": true
-    },
-    {
-        "version_name": "1.2.10.1",
-        "codes": {
+            "armeabi-v7a": 871021001,
             "x86": 872021001
         },
         "beta": true
@@ -1582,40 +930,21 @@
     {
         "version_name": "1.2.10.2",
         "codes": {
-            "x86": 872021002,
-            "armeabi-v7a": 871021002
-        }
-    },
-    {
-        "version_name": "1.2.10.2",
-        "codes": {
+            "armeabi-v7a": 871021002,
             "x86": 872021002
         }
     },
     {
         "version_name": "1.2.11.4",
         "codes": {
-            "x86": 872021104,
-            "armeabi-v7a": 871021104
-        }
-    },
-    {
-        "version_name": "1.2.11.4",
-        "codes": {
+            "armeabi-v7a": 871021104,
             "x86": 872021104
         }
     },
     {
         "version_name": "1.2.13.5",
         "codes": {
-            "x86": 872021305,
-            "armeabi-v7a": 871021305
-        },
-        "beta": true
-    },
-    {
-        "version_name": "1.2.13.5",
-        "codes": {
+            "armeabi-v7a": 871021305,
             "x86": 872021305
         },
         "beta": true
@@ -1623,14 +952,7 @@
     {
         "version_name": "1.2.13.6",
         "codes": {
-            "x86": 872021306,
-            "armeabi-v7a": 871021306
-        },
-        "beta": true
-    },
-    {
-        "version_name": "1.2.13.6",
-        "codes": {
+            "armeabi-v7a": 871021306,
             "x86": 872021306
         },
         "beta": true
@@ -1638,14 +960,7 @@
     {
         "version_name": "1.2.13.8",
         "codes": {
-            "x86": 872021308,
-            "armeabi-v7a": 871021308
-        },
-        "beta": true
-    },
-    {
-        "version_name": "1.2.13.8",
-        "codes": {
+            "armeabi-v7a": 871021308,
             "x86": 872021308
         },
         "beta": true
@@ -1653,14 +968,7 @@
     {
         "version_name": "1.2.13.10",
         "codes": {
-            "x86": 872021310,
-            "armeabi-v7a": 871021310
-        },
-        "beta": true
-    },
-    {
-        "version_name": "1.2.13.10",
-        "codes": {
+            "armeabi-v7a": 871021310,
             "x86": 872021310
         },
         "beta": true
@@ -1668,14 +976,7 @@
     {
         "version_name": "1.2.13.11",
         "codes": {
-            "x86": 872021311,
-            "armeabi-v7a": 871021311
-        },
-        "beta": true
-    },
-    {
-        "version_name": "1.2.13.11",
-        "codes": {
+            "armeabi-v7a": 871021311,
             "x86": 872021311
         },
         "beta": true
@@ -1683,14 +984,7 @@
     {
         "version_name": "1.2.13.12",
         "codes": {
-            "x86": 872021312,
-            "armeabi-v7a": 871021312
-        },
-        "beta": true
-    },
-    {
-        "version_name": "1.2.13.12",
-        "codes": {
+            "armeabi-v7a": 871021312,
             "x86": 872021312
         },
         "beta": true
@@ -1698,40 +992,21 @@
     {
         "version_name": "1.2.13.54",
         "codes": {
-            "x86": 872021354,
-            "armeabi-v7a": 871021354
-        }
-    },
-    {
-        "version_name": "1.2.13.54",
-        "codes": {
+            "armeabi-v7a": 871021354,
             "x86": 872021354
         }
     },
     {
         "version_name": "1.2.13.60",
         "codes": {
-            "x86": 872021360,
-            "armeabi-v7a": 871021360
-        }
-    },
-    {
-        "version_name": "1.2.13.60",
-        "codes": {
+            "armeabi-v7a": 871021360,
             "x86": 872021360
         }
     },
     {
         "version_name": "1.2.14.2",
         "codes": {
-            "x86": 872021402,
-            "armeabi-v7a": 871021402
-        },
-        "beta": true
-    },
-    {
-        "version_name": "1.2.14.2",
-        "codes": {
+            "armeabi-v7a": 871021402,
             "x86": 872021402
         },
         "beta": true
@@ -1739,14 +1014,7 @@
     {
         "version_name": "1.2.14.3",
         "codes": {
-            "x86": 872021403,
-            "armeabi-v7a": 871021403
-        },
-        "beta": true
-    },
-    {
-        "version_name": "1.2.14.3",
-        "codes": {
+            "armeabi-v7a": 871021403,
             "x86": 872021403
         },
         "beta": true
@@ -1754,14 +1022,7 @@
     {
         "version_name": "1.2.20.1",
         "codes": {
-            "x86": 872022001,
-            "armeabi-v7a": 871022001
-        },
-        "beta": true
-    },
-    {
-        "version_name": "1.2.20.1",
-        "codes": {
+            "armeabi-v7a": 871022001,
             "x86": 872022001
         },
         "beta": true
@@ -1769,14 +1030,7 @@
     {
         "version_name": "1.2.20.2",
         "codes": {
-            "x86": 872022002,
-            "armeabi-v7a": 871022002
-        },
-        "beta": true
-    },
-    {
-        "version_name": "1.2.20.2",
-        "codes": {
+            "armeabi-v7a": 871022002,
             "x86": 872022002
         },
         "beta": true
@@ -1784,66 +1038,35 @@
     {
         "version_name": "1.4.0.5",
         "codes": {
-            "x86": 872040005,
-            "armeabi-v7a": 871040005
-        }
-    },
-    {
-        "version_name": "1.4.0.5",
-        "codes": {
+            "armeabi-v7a": 871040005,
             "x86": 872040005
         }
     },
     {
         "version_name": "1.4.1.0",
         "codes": {
-            "x86": 872040100,
-            "armeabi-v7a": 871040100
-        }
-    },
-    {
-        "version_name": "1.4.1.0",
-        "codes": {
+            "armeabi-v7a": 871040100,
             "x86": 872040100
         }
     },
     {
         "version_name": "1.4.2.0",
         "codes": {
-            "x86": 872040200,
-            "armeabi-v7a": 871040200
-        }
-    },
-    {
-        "version_name": "1.4.2.0",
-        "codes": {
+            "armeabi-v7a": 871040200,
             "x86": 872040200
         }
     },
     {
         "version_name": "1.4.4.0",
         "codes": {
-            "x86": 872040400,
-            "armeabi-v7a": 871040400
-        }
-    },
-    {
-        "version_name": "1.4.4.0",
-        "codes": {
+            "armeabi-v7a": 871040400,
             "x86": 872040400
         }
     },
     {
         "version_name": "1.5.0.0",
         "codes": {
-            "x86": 872050000,
-            "armeabi-v7a": 871050000
-        },
-        "beta": true
-    },
-    {
-        "version_name": "1.5.0.0",
-        "codes": {
+            "armeabi-v7a": 871050000,
             "x86": 872050000
         },
         "beta": true
@@ -1851,14 +1074,7 @@
     {
         "version_name": "1.5.0.1",
         "codes": {
-            "x86": 872050001,
-            "armeabi-v7a": 871050001
-        },
-        "beta": true
-    },
-    {
-        "version_name": "1.5.0.1",
-        "codes": {
+            "armeabi-v7a": 871050001,
             "x86": 872050001
         },
         "beta": true
@@ -1866,14 +1082,7 @@
     {
         "version_name": "1.5.0.4",
         "codes": {
-            "x86": 872050004,
-            "armeabi-v7a": 871050004
-        },
-        "beta": true
-    },
-    {
-        "version_name": "1.5.0.4",
-        "codes": {
+            "armeabi-v7a": 871050004,
             "x86": 872050004
         },
         "beta": true
@@ -1881,14 +1090,7 @@
     {
         "version_name": "1.5.0.7",
         "codes": {
-            "x86": 872050007,
-            "armeabi-v7a": 871050007
-        },
-        "beta": true
-    },
-    {
-        "version_name": "1.5.0.7",
-        "codes": {
+            "armeabi-v7a": 871050007,
             "x86": 872050007
         },
         "beta": true
@@ -1896,14 +1098,7 @@
     {
         "version_name": "1.5.0.10",
         "codes": {
-            "x86": 872050010,
-            "armeabi-v7a": 871050010
-        },
-        "beta": true
-    },
-    {
-        "version_name": "1.5.0.10",
-        "codes": {
+            "armeabi-v7a": 871050010,
             "x86": 872050010
         },
         "beta": true
@@ -1911,66 +1106,35 @@
     {
         "version_name": "1.5.0.14",
         "codes": {
-            "x86": 872050014,
-            "armeabi-v7a": 871050014
-        }
-    },
-    {
-        "version_name": "1.5.0.14",
-        "codes": {
+            "armeabi-v7a": 871050014,
             "x86": 872050014
         }
     },
     {
         "version_name": "1.5.1.2",
         "codes": {
-            "x86": 872050102,
-            "armeabi-v7a": 871050102
-        }
-    },
-    {
-        "version_name": "1.5.1.2",
-        "codes": {
+            "armeabi-v7a": 871050102,
             "x86": 872050102
         }
     },
     {
         "version_name": "1.5.2.1",
         "codes": {
-            "x86": 872050201,
-            "armeabi-v7a": 871050201
-        }
-    },
-    {
-        "version_name": "1.5.2.1",
-        "codes": {
+            "armeabi-v7a": 871050201,
             "x86": 872050201
         }
     },
     {
         "version_name": "1.5.3.0",
         "codes": {
-            "x86": 872050300,
-            "armeabi-v7a": 871050300
-        }
-    },
-    {
-        "version_name": "1.5.3.0",
-        "codes": {
+            "armeabi-v7a": 871050300,
             "x86": 872050300
         }
     },
     {
         "version_name": "1.6.0.1",
         "codes": {
-            "x86": 872060001,
-            "armeabi-v7a": 871060001
-        },
-        "beta": true
-    },
-    {
-        "version_name": "1.6.0.1",
-        "codes": {
+            "armeabi-v7a": 871060001,
             "x86": 872060001
         },
         "beta": true
@@ -1978,14 +1142,7 @@
     {
         "version_name": "1.6.0.5",
         "codes": {
-            "x86": 872060005,
-            "armeabi-v7a": 871060005
-        },
-        "beta": true
-    },
-    {
-        "version_name": "1.6.0.5",
-        "codes": {
+            "armeabi-v7a": 871060005,
             "x86": 872060005
         },
         "beta": true
@@ -1993,14 +1150,7 @@
     {
         "version_name": "1.6.0.6",
         "codes": {
-            "x86": 872060006,
-            "armeabi-v7a": 871060006
-        },
-        "beta": true
-    },
-    {
-        "version_name": "1.6.0.6",
-        "codes": {
+            "armeabi-v7a": 871060006,
             "x86": 872060006
         },
         "beta": true
@@ -2008,14 +1158,7 @@
     {
         "version_name": "1.6.0.8",
         "codes": {
-            "x86": 872060008,
-            "armeabi-v7a": 871060008
-        },
-        "beta": true
-    },
-    {
-        "version_name": "1.6.0.8",
-        "codes": {
+            "armeabi-v7a": 871060008,
             "x86": 872060008
         },
         "beta": true
@@ -2023,27 +1166,14 @@
     {
         "version_name": "1.6.0.14",
         "codes": {
-            "x86": 872060014,
-            "armeabi-v7a": 871060014
-        }
-    },
-    {
-        "version_name": "1.6.0.14",
-        "codes": {
+            "armeabi-v7a": 871060014,
             "x86": 872060014
         }
     },
     {
         "version_name": "1.6.0.30",
         "codes": {
-            "x86": 872060030,
-            "armeabi-v7a": 871060030
-        },
-        "beta": true
-    },
-    {
-        "version_name": "1.6.0.30",
-        "codes": {
+            "armeabi-v7a": 871060030,
             "x86": 872060030
         },
         "beta": true
@@ -2051,27 +1181,14 @@
     {
         "version_name": "1.6.1.0",
         "codes": {
-            "x86": 872060100,
-            "armeabi-v7a": 871060100
-        }
-    },
-    {
-        "version_name": "1.6.1.0",
-        "codes": {
+            "armeabi-v7a": 871060100,
             "x86": 872060100
         }
     },
     {
         "version_name": "1.7.0.2",
         "codes": {
-            "x86": 872070002,
-            "armeabi-v7a": 871070002
-        },
-        "beta": true
-    },
-    {
-        "version_name": "1.7.0.2",
-        "codes": {
+            "armeabi-v7a": 871070002,
             "x86": 872070002
         },
         "beta": true
@@ -2079,14 +1196,7 @@
     {
         "version_name": "1.7.0.3",
         "codes": {
-            "x86": 872070003,
-            "armeabi-v7a": 871070003
-        },
-        "beta": true
-    },
-    {
-        "version_name": "1.7.0.3",
-        "codes": {
+            "armeabi-v7a": 871070003,
             "x86": 872070003
         },
         "beta": true
@@ -2094,14 +1204,7 @@
     {
         "version_name": "1.7.0.5",
         "codes": {
-            "x86": 872070005,
-            "armeabi-v7a": 871070005
-        },
-        "beta": true
-    },
-    {
-        "version_name": "1.7.0.5",
-        "codes": {
+            "armeabi-v7a": 871070005,
             "x86": 872070005
         },
         "beta": true
@@ -2109,14 +1212,7 @@
     {
         "version_name": "1.7.0.7",
         "codes": {
-            "x86": 872070007,
-            "armeabi-v7a": 871070007
-        },
-        "beta": true
-    },
-    {
-        "version_name": "1.7.0.7",
-        "codes": {
+            "armeabi-v7a": 871070007,
             "x86": 872070007
         },
         "beta": true
@@ -2124,14 +1220,7 @@
     {
         "version_name": "1.7.0.9",
         "codes": {
-            "x86": 872070009,
-            "armeabi-v7a": 871070009
-        },
-        "beta": true
-    },
-    {
-        "version_name": "1.7.0.9",
-        "codes": {
+            "armeabi-v7a": 871070009,
             "x86": 872070009
         },
         "beta": true
@@ -2139,27 +1228,14 @@
     {
         "version_name": "1.7.0.13",
         "codes": {
-            "x86": 872070013,
-            "armeabi-v7a": 871070013
-        }
-    },
-    {
-        "version_name": "1.7.0.13",
-        "codes": {
+            "armeabi-v7a": 871070013,
             "x86": 872070013
         }
     },
     {
         "version_name": "1.8.0.8",
         "codes": {
-            "x86": 872080008,
-            "armeabi-v7a": 871080008
-        },
-        "beta": true
-    },
-    {
-        "version_name": "1.8.0.8",
-        "codes": {
+            "armeabi-v7a": 871080008,
             "x86": 872080008
         },
         "beta": true
@@ -2167,14 +1243,7 @@
     {
         "version_name": "1.8.0.10",
         "codes": {
-            "x86": 872080010,
-            "armeabi-v7a": 871080010
-        },
-        "beta": true
-    },
-    {
-        "version_name": "1.8.0.10",
-        "codes": {
+            "armeabi-v7a": 871080010,
             "x86": 872080010
         },
         "beta": true
@@ -2182,14 +1251,7 @@
     {
         "version_name": "1.8.0.11",
         "codes": {
-            "x86": 872080011,
-            "armeabi-v7a": 871080011
-        },
-        "beta": true
-    },
-    {
-        "version_name": "1.8.0.11",
-        "codes": {
+            "armeabi-v7a": 871080011,
             "x86": 872080011
         },
         "beta": true
@@ -2197,14 +1259,7 @@
     {
         "version_name": "1.8.0.13",
         "codes": {
-            "x86": 872080013,
-            "armeabi-v7a": 871080013
-        },
-        "beta": true
-    },
-    {
-        "version_name": "1.8.0.13",
-        "codes": {
+            "armeabi-v7a": 871080013,
             "x86": 872080013
         },
         "beta": true
@@ -2212,14 +1267,7 @@
     {
         "version_name": "1.8.0.14",
         "codes": {
-            "x86": 872080014,
-            "armeabi-v7a": 871080014
-        },
-        "beta": true
-    },
-    {
-        "version_name": "1.8.0.14",
-        "codes": {
+            "armeabi-v7a": 871080014,
             "x86": 872080014
         },
         "beta": true
@@ -2227,40 +1275,21 @@
     {
         "version_name": "1.8.0.24",
         "codes": {
-            "x86": 872080024,
-            "armeabi-v7a": 871080024
-        }
-    },
-    {
-        "version_name": "1.8.0.24",
-        "codes": {
+            "armeabi-v7a": 871080024,
             "x86": 872080024
         }
     },
     {
         "version_name": "1.8.1.2",
         "codes": {
-            "x86": 872080102,
-            "armeabi-v7a": 871080102
-        }
-    },
-    {
-        "version_name": "1.8.1.2",
-        "codes": {
+            "armeabi-v7a": 871080102,
             "x86": 872080102
         }
     },
     {
         "version_name": "1.9.0.0",
         "codes": {
-            "x86": 872090000,
-            "armeabi-v7a": 871090000
-        },
-        "beta": true
-    },
-    {
-        "version_name": "1.9.0.0",
-        "codes": {
+            "armeabi-v7a": 871090000,
             "x86": 872090000
         },
         "beta": true
@@ -2268,14 +1297,7 @@
     {
         "version_name": "1.9.0.2",
         "codes": {
-            "x86": 872090002,
-            "armeabi-v7a": 871090002
-        },
-        "beta": true
-    },
-    {
-        "version_name": "1.9.0.2",
-        "codes": {
+            "armeabi-v7a": 871090002,
             "x86": 872090002
         },
         "beta": true
@@ -2283,14 +1305,7 @@
     {
         "version_name": "1.9.0.3",
         "codes": {
-            "x86": 872090003,
-            "armeabi-v7a": 871090003
-        },
-        "beta": true
-    },
-    {
-        "version_name": "1.9.0.3",
-        "codes": {
+            "armeabi-v7a": 871090003,
             "x86": 872090003
         },
         "beta": true
@@ -2298,14 +1313,7 @@
     {
         "version_name": "1.9.0.5",
         "codes": {
-            "x86": 872090005,
-            "armeabi-v7a": 871090005
-        },
-        "beta": true
-    },
-    {
-        "version_name": "1.9.0.5",
-        "codes": {
+            "armeabi-v7a": 871090005,
             "x86": 872090005
         },
         "beta": true
@@ -2313,27 +1321,14 @@
     {
         "version_name": "1.9.0.15",
         "codes": {
-            "x86": 872090015,
-            "armeabi-v7a": 871090015
-        }
-    },
-    {
-        "version_name": "1.9.0.15",
-        "codes": {
+            "armeabi-v7a": 871090015,
             "x86": 872090015
         }
     },
     {
         "version_name": "1.10.0.3",
         "codes": {
-            "x86": 872100003,
-            "armeabi-v7a": 871100003
-        },
-        "beta": true
-    },
-    {
-        "version_name": "1.10.0.3",
-        "codes": {
+            "armeabi-v7a": 871100003,
             "x86": 872100003
         },
         "beta": true
@@ -2341,14 +1336,7 @@
     {
         "version_name": "1.10.0.4",
         "codes": {
-            "x86": 872100004,
-            "armeabi-v7a": 871100004
-        },
-        "beta": true
-    },
-    {
-        "version_name": "1.10.0.4",
-        "codes": {
+            "armeabi-v7a": 871100004,
             "x86": 872100004
         },
         "beta": true
@@ -2356,27 +1344,14 @@
     {
         "version_name": "1.10.0.7",
         "codes": {
-            "x86": 872100007,
-            "armeabi-v7a": 871100007
-        }
-    },
-    {
-        "version_name": "1.10.0.7",
-        "codes": {
+            "armeabi-v7a": 871100007,
             "x86": 872100007
         }
     },
     {
         "version_name": "1.11.0.1",
         "codes": {
-            "x86": 872110001,
-            "armeabi-v7a": 871110001
-        },
-        "beta": true
-    },
-    {
-        "version_name": "1.11.0.1",
-        "codes": {
+            "armeabi-v7a": 871110001,
             "x86": 872110001
         },
         "beta": true
@@ -2384,14 +1359,7 @@
     {
         "version_name": "1.11.0.3",
         "codes": {
-            "x86": 872110003,
-            "armeabi-v7a": 871110003
-        },
-        "beta": true
-    },
-    {
-        "version_name": "1.11.0.3",
-        "codes": {
+            "armeabi-v7a": 871110003,
             "x86": 872110003
         },
         "beta": true
@@ -2399,14 +1367,7 @@
     {
         "version_name": "1.11.0.4",
         "codes": {
-            "x86": 872110004,
-            "armeabi-v7a": 871110004
-        },
-        "beta": true
-    },
-    {
-        "version_name": "1.11.0.4",
-        "codes": {
+            "armeabi-v7a": 871110004,
             "x86": 872110004
         },
         "beta": true
@@ -2414,14 +1375,7 @@
     {
         "version_name": "1.11.0.5",
         "codes": {
-            "x86": 872110005,
-            "armeabi-v7a": 871110005
-        },
-        "beta": true
-    },
-    {
-        "version_name": "1.11.0.5",
-        "codes": {
+            "armeabi-v7a": 871110005,
             "x86": 872110005
         },
         "beta": true
@@ -2429,14 +1383,7 @@
     {
         "version_name": "1.11.0.7",
         "codes": {
-            "x86": 872110007,
-            "armeabi-v7a": 871110007
-        },
-        "beta": true
-    },
-    {
-        "version_name": "1.11.0.7",
-        "codes": {
+            "armeabi-v7a": 871110007,
             "x86": 872110007
         },
         "beta": true
@@ -2444,14 +1391,7 @@
     {
         "version_name": "1.11.0.8",
         "codes": {
-            "x86": 872110008,
-            "armeabi-v7a": 871110008
-        },
-        "beta": true
-    },
-    {
-        "version_name": "1.11.0.8",
-        "codes": {
+            "armeabi-v7a": 871110008,
             "x86": 872110008
         },
         "beta": true
@@ -2459,14 +1399,7 @@
     {
         "version_name": "1.11.0.9",
         "codes": {
-            "x86": 872110009,
-            "armeabi-v7a": 871110009
-        },
-        "beta": true
-    },
-    {
-        "version_name": "1.11.0.9",
-        "codes": {
+            "armeabi-v7a": 871110009,
             "x86": 872110009
         },
         "beta": true
@@ -2474,14 +1407,7 @@
     {
         "version_name": "1.11.0.10",
         "codes": {
-            "x86": 872110010,
-            "armeabi-v7a": 871110010
-        },
-        "beta": true
-    },
-    {
-        "version_name": "1.11.0.10",
-        "codes": {
+            "armeabi-v7a": 871110010,
             "x86": 872110010
         },
         "beta": true
@@ -2489,66 +1415,35 @@
     {
         "version_name": "1.11.0.23",
         "codes": {
-            "x86": 872110023,
-            "armeabi-v7a": 871110023
-        }
-    },
-    {
-        "version_name": "1.11.0.23",
-        "codes": {
+            "armeabi-v7a": 871110023,
             "x86": 872110023
         }
     },
     {
         "version_name": "1.11.1.2",
         "codes": {
-            "x86": 872110102,
-            "armeabi-v7a": 871110102
-        }
-    },
-    {
-        "version_name": "1.11.1.2",
-        "codes": {
+            "armeabi-v7a": 871110102,
             "x86": 872110102
         }
     },
     {
         "version_name": "1.11.3.1",
         "codes": {
-            "x86": 872110301,
-            "armeabi-v7a": 871110301
-        }
-    },
-    {
-        "version_name": "1.11.3.1",
-        "codes": {
+            "armeabi-v7a": 871110301,
             "x86": 872110301
         }
     },
     {
         "version_name": "1.11.4.2",
         "codes": {
-            "x86": 872110402,
-            "armeabi-v7a": 871110402
-        }
-    },
-    {
-        "version_name": "1.11.4.2",
-        "codes": {
+            "armeabi-v7a": 871110402,
             "x86": 872110402
         }
     },
     {
         "version_name": "1.12.0.2",
         "codes": {
-            "x86": 872120002,
-            "armeabi-v7a": 871120002
-        },
-        "beta": true
-    },
-    {
-        "version_name": "1.12.0.2",
-        "codes": {
+            "armeabi-v7a": 871120002,
             "x86": 872120002
         },
         "beta": true
@@ -2556,14 +1451,7 @@
     {
         "version_name": "1.12.0.3",
         "codes": {
-            "x86": 872120003,
-            "armeabi-v7a": 871120003
-        },
-        "beta": true
-    },
-    {
-        "version_name": "1.12.0.3",
-        "codes": {
+            "armeabi-v7a": 871120003,
             "x86": 872120003
         },
         "beta": true
@@ -2571,14 +1459,7 @@
     {
         "version_name": "1.12.0.4",
         "codes": {
-            "x86": 872120004,
-            "armeabi-v7a": 871120004
-        },
-        "beta": true
-    },
-    {
-        "version_name": "1.12.0.4",
-        "codes": {
+            "armeabi-v7a": 871120004,
             "x86": 872120004
         },
         "beta": true
@@ -2586,14 +1467,7 @@
     {
         "version_name": "1.12.0.6",
         "codes": {
-            "x86": 872120006,
-            "armeabi-v7a": 871120006
-        },
-        "beta": true
-    },
-    {
-        "version_name": "1.12.0.6",
-        "codes": {
+            "armeabi-v7a": 871120006,
             "x86": 872120006
         },
         "beta": true
@@ -2601,14 +1475,7 @@
     {
         "version_name": "1.12.0.9",
         "codes": {
-            "x86": 872120009,
-            "armeabi-v7a": 871120009
-        },
-        "beta": true
-    },
-    {
-        "version_name": "1.12.0.9",
-        "codes": {
+            "armeabi-v7a": 871120009,
             "x86": 872120009
         },
         "beta": true
@@ -2616,14 +1483,7 @@
     {
         "version_name": "1.12.0.10",
         "codes": {
-            "x86": 872120010,
-            "armeabi-v7a": 871120010
-        },
-        "beta": true
-    },
-    {
-        "version_name": "1.12.0.10",
-        "codes": {
+            "armeabi-v7a": 871120010,
             "x86": 872120010
         },
         "beta": true
@@ -2631,14 +1491,7 @@
     {
         "version_name": "1.12.0.11",
         "codes": {
-            "x86": 872120011,
-            "armeabi-v7a": 871120011
-        },
-        "beta": true
-    },
-    {
-        "version_name": "1.12.0.11",
-        "codes": {
+            "armeabi-v7a": 871120011,
             "x86": 872120011
         },
         "beta": true
@@ -2646,14 +1499,7 @@
     {
         "version_name": "1.12.0.12",
         "codes": {
-            "x86": 872120012,
-            "armeabi-v7a": 871120012
-        },
-        "beta": true
-    },
-    {
-        "version_name": "1.12.0.12",
-        "codes": {
+            "armeabi-v7a": 871120012,
             "x86": 872120012
         },
         "beta": true
@@ -2661,14 +1507,7 @@
     {
         "version_name": "1.12.0.13",
         "codes": {
-            "x86": 872120013,
-            "armeabi-v7a": 871120013
-        },
-        "beta": true
-    },
-    {
-        "version_name": "1.12.0.13",
-        "codes": {
+            "armeabi-v7a": 871120013,
             "x86": 872120013
         },
         "beta": true
@@ -2676,14 +1515,7 @@
     {
         "version_name": "1.12.0.14",
         "codes": {
-            "x86": 872120014,
-            "armeabi-v7a": 871120014
-        },
-        "beta": true
-    },
-    {
-        "version_name": "1.12.0.14",
-        "codes": {
+            "armeabi-v7a": 871120014,
             "x86": 872120014
         },
         "beta": true
@@ -2691,40 +1523,21 @@
     {
         "version_name": "1.12.0.28",
         "codes": {
-            "x86": 872120028,
-            "armeabi-v7a": 871120028
-        }
-    },
-    {
-        "version_name": "1.12.0.28",
-        "codes": {
+            "armeabi-v7a": 871120028,
             "x86": 872120028
         }
     },
     {
         "version_name": "1.12.1.1",
         "codes": {
-            "x86": 872120101,
-            "armeabi-v7a": 871120101
-        }
-    },
-    {
-        "version_name": "1.12.1.1",
-        "codes": {
+            "armeabi-v7a": 871120101,
             "x86": 872120101
         }
     },
     {
         "version_name": "1.13.0.1",
         "codes": {
-            "x86": 872130001,
-            "armeabi-v7a": 871130001
-        },
-        "beta": true
-    },
-    {
-        "version_name": "1.13.0.1",
-        "codes": {
+            "armeabi-v7a": 871130001,
             "x86": 872130001
         },
         "beta": true
@@ -2732,14 +1545,7 @@
     {
         "version_name": "1.13.0.2",
         "codes": {
-            "x86": 872130002,
-            "armeabi-v7a": 871130002
-        },
-        "beta": true
-    },
-    {
-        "version_name": "1.13.0.2",
-        "codes": {
+            "armeabi-v7a": 871130002,
             "x86": 872130002
         },
         "beta": true
@@ -2747,14 +1553,7 @@
     {
         "version_name": "1.13.0.4",
         "codes": {
-            "x86": 872130004,
-            "armeabi-v7a": 871130004
-        },
-        "beta": true
-    },
-    {
-        "version_name": "1.13.0.4",
-        "codes": {
+            "armeabi-v7a": 871130004,
             "x86": 872130004
         },
         "beta": true
@@ -2762,14 +1561,7 @@
     {
         "version_name": "1.13.0.6",
         "codes": {
-            "x86": 872130006,
-            "armeabi-v7a": 871130006
-        },
-        "beta": true
-    },
-    {
-        "version_name": "1.13.0.6",
-        "codes": {
+            "armeabi-v7a": 871130006,
             "x86": 872130006
         },
         "beta": true
@@ -2777,14 +1569,7 @@
     {
         "version_name": "1.13.0.9",
         "codes": {
-            "x86": 872130009,
-            "armeabi-v7a": 871130009
-        },
-        "beta": true
-    },
-    {
-        "version_name": "1.13.0.9",
-        "codes": {
+            "armeabi-v7a": 871130009,
             "x86": 872130009
         },
         "beta": true
@@ -2792,14 +1577,7 @@
     {
         "version_name": "1.13.0.13",
         "codes": {
-            "x86": 872130013,
-            "armeabi-v7a": 871130013
-        },
-        "beta": true
-    },
-    {
-        "version_name": "1.13.0.13",
-        "codes": {
+            "armeabi-v7a": 871130013,
             "x86": 872130013
         },
         "beta": true
@@ -2807,14 +1585,7 @@
     {
         "version_name": "1.13.0.15",
         "codes": {
-            "x86": 872130015,
-            "armeabi-v7a": 871130015
-        },
-        "beta": true
-    },
-    {
-        "version_name": "1.13.0.15",
-        "codes": {
+            "armeabi-v7a": 871130015,
             "x86": 872130015
         },
         "beta": true
@@ -2822,177 +1593,177 @@
     {
         "version_name": "1.13.0.16",
         "codes": {
-            "x86": 942130016,
-            "armeabi-v7a": 941130016
+            "armeabi-v7a": 941130016,
+            "x86": 942130016
         },
         "beta": true
     },
     {
         "version_name": "1.13.0.18",
         "codes": {
-            "x86": 942130018,
-            "armeabi-v7a": 941130018
+            "armeabi-v7a": 941130018,
+            "x86": 942130018
         },
         "beta": true
     },
     {
         "version_name": "1.13.0.34",
         "codes": {
-            "x86": 942130034,
-            "armeabi-v7a": 941130034
+            "armeabi-v7a": 941130034,
+            "x86": 942130034
         }
     },
     {
         "version_name": "1.13.1.5",
         "codes": {
-            "x86": 942130105,
-            "armeabi-v7a": 941130105
+            "armeabi-v7a": 941130105,
+            "x86": 942130105
         }
     },
     {
         "version_name": "1.14.0.1",
         "codes": {
-            "x86": 942140001,
-            "armeabi-v7a": 941140001
+            "armeabi-v7a": 941140001,
+            "x86": 942140001
         },
         "beta": true
     },
     {
         "version_name": "1.14.0.2",
         "codes": {
-            "x86": 942140002,
-            "armeabi-v7a": 941140002
+            "armeabi-v7a": 941140002,
+            "x86": 942140002
         },
         "beta": true
     },
     {
         "version_name": "1.14.0.3",
         "codes": {
-            "x86": 942140003,
-            "armeabi-v7a": 941140003
+            "armeabi-v7a": 941140003,
+            "x86": 942140003
         },
         "beta": true
     },
     {
         "version_name": "1.14.0.4",
         "codes": {
-            "x86": 942140004,
-            "armeabi-v7a": 941140004
+            "armeabi-v7a": 941140004,
+            "x86": 942140004
         },
         "beta": true
     },
     {
         "version_name": "1.14.0.6",
         "codes": {
-            "x86": 942140006,
-            "armeabi-v7a": 941140006
+            "armeabi-v7a": 941140006,
+            "x86": 942140006
         },
         "beta": true
     },
     {
         "version_name": "1.14.0.9",
         "codes": {
-            "x86": 942140009,
-            "armeabi-v7a": 941140009
+            "armeabi-v7a": 941140009,
+            "x86": 942140009
         }
     },
     {
         "version_name": "1.14.0.50",
         "codes": {
-            "x86": 942140050,
-            "armeabi-v7a": 941140050
+            "armeabi-v7a": 941140050,
+            "x86": 942140050
         },
         "beta": true
     },
     {
         "version_name": "1.14.0.51",
         "codes": {
-            "x86": 942140051,
-            "armeabi-v7a": 941140051
+            "armeabi-v7a": 941140051,
+            "x86": 942140051
         },
         "beta": true
     },
     {
         "version_name": "1.14.0.52",
         "codes": {
-            "x86": 942140052,
-            "armeabi-v7a": 941140052
+            "armeabi-v7a": 941140052,
+            "x86": 942140052
         },
         "beta": true
     },
     {
         "version_name": "1.14.1.3",
         "codes": {
-            "x86": 942140103,
-            "armeabi-v7a": 941140103
+            "armeabi-v7a": 941140103,
+            "x86": 942140103
         },
         "beta": true
     },
     {
         "version_name": "1.14.1.4",
         "codes": {
-            "x86": 942140104,
-            "armeabi-v7a": 941140104
+            "armeabi-v7a": 941140104,
+            "x86": 942140104
         }
     },
     {
         "version_name": "1.14.1.5",
         "codes": {
-            "x86": 942140105,
-            "armeabi-v7a": 941140105
+            "armeabi-v7a": 941140105,
+            "x86": 942140105
         }
     },
     {
         "version_name": "1.14.2.50",
         "codes": {
-            "x86": 942140250,
-            "armeabi-v7a": 941140250
+            "armeabi-v7a": 941140250,
+            "x86": 942140250
         },
         "beta": true
     },
     {
         "version_name": "1.14.2.51",
         "codes": {
-            "x86": 942140251,
-            "armeabi-v7a": 941140251
+            "armeabi-v7a": 941140251,
+            "x86": 942140251
         },
         "beta": true
     },
     {
         "version_name": "1.14.2.52",
         "codes": {
-            "x86": 942140252,
-            "armeabi-v7a": 941140252
+            "armeabi-v7a": 941140252,
+            "x86": 942140252
         },
         "beta": true
     },
     {
         "version_name": "1.14.20.1",
         "codes": {
-            "x86": 942142001,
-            "armeabi-v7a": 941142001
+            "armeabi-v7a": 941142001,
+            "x86": 942142001
         }
     },
     {
         "version_name": "1.14.25.1",
         "codes": {
-            "x86": 942142501,
-            "armeabi-v7a": 941142501
+            "armeabi-v7a": 941142501,
+            "x86": 942142501
         },
         "beta": true
     },
     {
         "version_name": "1.14.30.2",
         "codes": {
-            "x86": 942143002,
-            "armeabi-v7a": 941143002
+            "armeabi-v7a": 941143002,
+            "x86": 942143002
         }
     },
     {
         "version_name": "1.14.30.51",
         "codes": {
-            "x86": 942143051,
-            "armeabi-v7a": 941143051
+            "armeabi-v7a": 941143051,
+            "x86": 942143051
         },
         "beta": true
     },
@@ -3008,48 +1779,48 @@
     {
         "version_name": "1.15.0.51",
         "codes": {
-            "x86": 942150051,
-            "armeabi-v7a": 941150051
+            "armeabi-v7a": 941150051,
+            "x86": 942150051
         },
         "beta": true
     },
     {
         "version_name": "1.15.0.53",
         "codes": {
-            "x86": 942150053,
-            "armeabi-v7a": 941150053
+            "armeabi-v7a": 941150053,
+            "x86": 942150053
         },
         "beta": true
     },
     {
         "version_name": "1.15.0.54",
         "codes": {
-            "x86": 942150054,
-            "armeabi-v7a": 941150054
+            "armeabi-v7a": 941150054,
+            "x86": 942150054
         },
         "beta": true
     },
     {
         "version_name": "1.15.0.55",
         "codes": {
-            "x86": 942150055,
-            "armeabi-v7a": 941150055
+            "armeabi-v7a": 941150055,
+            "x86": 942150055
         },
         "beta": true
     },
     {
         "version_name": "1.15.0.56",
         "codes": {
-            "x86": 942150056,
-            "armeabi-v7a": 941150056
+            "armeabi-v7a": 941150056,
+            "x86": 942150056
         },
         "beta": true
     },
     {
         "version_name": "1.16.0.51",
         "codes": {
-            "x86": 942160051,
-            "armeabi-v7a": 941160051
+            "armeabi-v7a": 941160051,
+            "x86": 942160051
         },
         "beta": true
     },
@@ -3080,6 +1851,16 @@
             "x86": 942160058,
             "arm64-v8a": 943160058,
             "x86_64": 944160058
+        },
+        "beta": true
+    },
+    {
+        "version_name": "1.16.0.59",
+        "codes": {
+            "armeabi-v7a": 941160059,
+            "x86": 942160059,
+            "arm64-v8a": 943160059,
+            "x86_64": 944160059
         },
         "beta": true
     }
