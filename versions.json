@@ -2255,5 +2255,12 @@
             "x86_64": 954610050
         },
         "beta": true
+    },
+    {
+        "version_name": "1.16.100.51",
+        "codes": {
+            "armeabi-v7a": 951610051
+        },
+        "beta": true
     }
 ]
