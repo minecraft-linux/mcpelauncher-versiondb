@@ -28,8 +28,6 @@ jobs:
         list.save_minified('x86_64')
     - name: Update git
       run: |
-        git add .
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git commit -m "Update minified json's"
-        git push
+        (git add . && git commit -m "Update minified json's" && git push) || :
