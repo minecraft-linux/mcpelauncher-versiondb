@@ -2,7 +2,6 @@ name: Generate minified versions
 
 on:
   push:
-    branches: [ master ]
 
 jobs:
   build:
