@@ -689,6 +689,13 @@
         }
     },
     {
+        "version_name": "0.15.0.1",
+        "codes": {
+            "armeabi-v7a": 870150001,
+            "x86": 871150001
+        }
+    },
+    {
         "version_name": "0.15.1.2",
         "codes": {
             "armeabi-v7a": 870150102,
