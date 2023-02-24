@@ -12,9 +12,27 @@
         }
     },
     {
+        "version_name": "0.1.2j",
+        "codes": {
+            "armeabi-v7a": 1023
+        }
+    },
+    {
         "version_name": "0.1.2",
         "codes": {
             "armeabi-v7a": 1025
+        }
+    },
+    {
+        "version_name": "0.1.3j",
+        "codes": {
+            "armeabi-v7a": 1033
+        }
+    },
+    {
+        "version_name": "0.1.3",
+        "codes": {
+            "armeabi-v7a": 1035
         }
     },
     {
