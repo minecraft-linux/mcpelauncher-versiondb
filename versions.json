@@ -189,62 +189,6 @@
         }
     },
     {
-        "version_name": "0.8.2",
-        "codes": {
-            "armeabi-v7a": 500802001,
-            "x86": 700802001
-        }
-    },
-    {
-        "version_name": "0.8.3",
-        "codes": {
-            "armeabi-v7a": 500803001,
-            "x86": 700803001
-        }
-    },
-    {
-        "version_name": "0.8.4",
-        "codes": {
-            "armeabi-v7a": 500804001,
-            "x86": 700804001
-        }
-    },
-    {
-        "version_name": "0.8.5",
-        "codes": {
-            "armeabi-v7a": 500805001,
-            "x86": 700805001
-        }
-    },
-    {
-        "version_name": "0.8.6",
-        "codes": {
-            "armeabi-v7a": 500806001,
-            "x86": 700806001
-        }
-    },
-    {
-        "version_name": "0.8.7",
-        "codes": {
-            "armeabi-v7a": 500807001,
-            "x86": 700807001
-        }
-    },
-    {
-        "version_name": "0.8.8",
-        "codes": {
-            "armeabi-v7a": 500808001,
-            "x86": 700808001
-        }
-    },
-    {
-        "version_name": "0.8.9",
-        "codes": {
-            "armeabi-v7a": 500809001,
-            "x86": 700809001
-        }
-    },
-    {
         "version_name": "0.9.0",
         "codes": {
             "armeabi-v7a": 500900001,
