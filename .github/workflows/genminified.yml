@@ -6,6 +6,8 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
     - uses: actions/checkout@v2
@@ -26,6 +28,7 @@ jobs:
         list.save_minified('x86_64')
     - name: Update git
       run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
+        # from https://github.com/orgs/community/discussions/26560
+        git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git config user.name "github-actions[bot]"
         (git add . && git commit -m "Update minified json's" && git push) || :
