@@ -166,19 +166,22 @@
     {
         "version_name": "0.7.4",
         "codes": {
-            "armeabi-v7a": 50007040
+            "armeabi-v7a": 50007040,
+            "x86": 70007040
         }
     },
     {
         "version_name": "0.7.5",
         "codes": {
-            "armeabi-v7a": 50007050
+            "armeabi-v7a": 50007050,
+            "x86": 70007050
         }
     },
     {
         "version_name": "0.7.6",
         "codes": {
-            "armeabi-v7a": 50007060
+            "armeabi-v7a": 50007060,
+            "x86": 70007060
         }
     },
     {
