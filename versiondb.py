@@ -22,7 +22,11 @@ class VersionList:
         data = []
         for v in self.versions:
             if arch in v["codes"]:
-                data.append([v["codes"][arch], v["version_name"], 1 if ("beta" in v and v["beta"]) else 0])
+                dataObj = [v["codes"][arch], v["version_name"], 1 if ("beta" in v and v["beta"]) else 0]
+                # Rollforward feature of the mcpelauncher
+                if ("maxCodes" in v) and (arch in v["maxCodes"]):
+                    dataObj.append(v["maxCodes"][arch])
+                data.append(dataObj)
         with open(os.path.join(os.path.dirname(self.main_file), "versions." + arch + ".json.min"), 'w') as f:
             json.dump(data, f, separators=(',',':'))
 
