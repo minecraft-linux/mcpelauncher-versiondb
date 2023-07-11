@@ -1,6 +1,7 @@
 import json
 import os
 import re
+import copy
 
 class VersionList:
     def __init__(self, directory):
@@ -14,12 +15,26 @@ class VersionList:
         with open(self.main_file) as f:
             self.versions = json.load(f)
 
-    def save(self):
+    def save(self, codes = None):
         with open(self.main_file, 'w') as f:
-            json.dump(self.versions, f, indent=4)
+            if codes is None:
+                json.dump(self.versions, f, indent=4)
+            else:
+                versions = []
+                for v in self.versions:
+                    cv = copy.copy(v)
+                    cv.codes = {}
+                    for arch in v.codes:
+                        if arch in codes and v.codes[arch] >= codes[arch][0] && v.codes[arch] <= codes[arch][1]:
+                            cv.codes[arch] = v.codes[arch]
+                    versions.append(cv)
+                json.dump(versions, f, indent=4)
 
-    def save_minified(self, arch, cmin = 0, cmax = -1):
+
+    def save_minified(self, arch, codes = None):
         data = []
+        cmin = codes[arch][0] if arch in codes else 0
+        cmax = codes[arch][1] if arch in codes else -1
         for v in self.versions:
             if arch in v["codes"]:
                 code = v["codes"][arch]
