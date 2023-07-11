@@ -13,14 +13,14 @@ jobs:
     strategy:
       matrix:
         config:
-        - branch: ${{ github.ref }},
+        - branch: ${{ github.ref }}
         # Sync branches
-        - branch: v0.10.x,
+        - branch: v0.10.x
           m: 1
           codes:
-            armeabi-v7a: [0, 952002020],
-            x86: [0, 962002020],
-            arm64-v8a: [0, 972002020],
+            armeabi-v7a: [0, 952002020]
+            x86: [0, 962002020]
+            arm64-v8a: [0, 972002020]
             x86_64: [0, 982002020]
         exclude:
         # disable branch sync for non default branch
