@@ -23,10 +23,10 @@ class VersionList:
                 versions = []
                 for v in self.versions:
                     cv = copy.copy(v)
-                    cv.codes = {}
-                    for arch in v.codes:
-                        if arch in codes and v.codes[arch] >= codes[arch][0] and v.codes[arch] <= codes[arch][1]:
-                            cv.codes[arch] = v.codes[arch]
+                    cv["codes"] = {}
+                    for arch in v["codes"]:
+                        if arch in codes and v["codes"][arch] >= codes[arch][0] and v["codes"][arch] <= codes[arch][1]:
+                            cv["codes"][arch] = v["codes"][arch]
                     versions.append(cv)
                 json.dump(versions, f, indent=4)
 
