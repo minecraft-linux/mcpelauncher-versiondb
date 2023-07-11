@@ -2,6 +2,8 @@ name: Generate minified versions
 
 on:
   push:
+    branches:
+    - "**"
   workflow_dispatch:
 
 jobs:
@@ -35,10 +37,18 @@ jobs:
             m: ${{ github.ref_name != github.event.repository.default_branch && 1 || -1 }}
     steps:
     - uses: actions/checkout@v3
-    - uses: actions/checkout@v3
+    - name: Checkout Deploy (existing branch)
+      uses: actions/checkout@v3
+      id: checkout-deploy
+      continue-on-error: true
       with:
         path: deploy
         ref: ${{ matrix.config.branch }}
+    - name: Checkout Deploy (create branch)
+      uses: actions/checkout@v3
+      if: steps.checkout-deploy.outcome != 'success'
+      with:
+        path: deploy
     - name: Set up Python 3.11
       uses: actions/setup-python@v4
       with:
@@ -67,5 +77,5 @@ jobs:
         # from https://github.com/orgs/community/discussions/26560
         git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git config user.name "github-actions[bot]"
-        (git add . && git commit -m "Update minified json's" && git push) || :
+        (git add . && git commit -m "Update minified json's" && git push HEAD:refs/heads/${{ matrix.config.branch }}) || :
       working-directory: deploy
