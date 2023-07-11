@@ -27,7 +27,8 @@ class VersionList:
                     for arch in v["codes"]:
                         if arch in codes and v["codes"][arch] >= codes[arch][0] and v["codes"][arch] <= codes[arch][1]:
                             cv["codes"][arch] = v["codes"][arch]
-                    versions.append(cv)
+                    if cv["codes"]:
+                        versions.append(cv)
                 json.dump(versions, f, indent=4)
 
 
