@@ -1,6 +1,11 @@
 name: Generate minified versions
 
-on: push
+on:
+  push:
+    branches:
+    - "**"
+  workflow_dispatch:
+  pull_request:
 
 jobs:
   build:
@@ -8,27 +13,65 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-
+    strategy:
+      matrix:
+        config:
+        - branch: ${{ github.ref_name }}
+        # Sync branches
+        - branch: v0.10.x
+          m: 1
+          codes:
+            armeabi-v7a: [0, 952001999]
+            x86: [0, 962001999]
+            arm64-v8a: [0, 972001999]
+            x86_64: [0, 982001999]
+        exclude:
+        # disable branch sync for non default branch
+        - config:
+            m: ${{ github.ref_name != github.event.repository.default_branch && 1 || -1 }}
     steps:
-    - uses: actions/checkout@v2
-    - name: Set up Python 3.8
-      uses: actions/setup-python@v2
+    - uses: actions/checkout@v3
+    - name: Checkout Deploy (existing branch)
+      uses: actions/checkout@v3
+      if: startsWith(github.ref, 'refs/heads/')
+      id: checkout-deploy
+      continue-on-error: true
       with:
-        python-version: 3.8 
+        path: deploy
+        ref: ${{ matrix.config.branch }}
+    - name: Checkout Deploy (create branch)
+      uses: actions/checkout@v3
+      if: steps.checkout-deploy.outcome != 'success'
+      with:
+        path: deploy
+    - name: Set up Python 3.11
+      uses: actions/setup-python@v4
+      with:
+        python-version: 3.11
     - name: Update files
       env:
         PYTHONPATH: ${{ github.workspace }}
+        CODES: ${{ tojson(matrix.config.codes) }}
       shell: python
       run: |
+        import os
+        import json
         import versiondb
         list = versiondb.VersionList('.')
-        list.save_minified('armeabi-v7a')
-        list.save_minified('x86')
-        list.save_minified('arm64-v8a')
-        list.save_minified('x86_64')
+        codes = json.loads(os.getenv('CODES'))
+        list.save(codes)
+        list.save_minified('armeabi-v7a', codes)
+        list.save_minified('x86', codes)
+        list.save_minified('arm64-v8a', codes)
+        list.save_minified('x86_64', codes)
+    - name: copy to deploy
+      run: |
+        cp versions.json versions.*.json.min deploy/
     - name: Update git
+      if: startsWith(github.ref, 'refs/heads/')
       run: |
         # from https://github.com/orgs/community/discussions/26560
         git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git config user.name "github-actions[bot]"
-        (git add . && git commit -m "Update minified json's" && git push) || :
+        (git add . && git commit -m "Update minified json's" && git push origin HEAD:refs/heads/${{ matrix.config.branch }}) || :
+      working-directory: deploy

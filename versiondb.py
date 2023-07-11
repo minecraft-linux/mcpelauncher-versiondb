@@ -1,6 +1,7 @@
 import json
 import os
 import re
+import copy
 
 class VersionList:
     def __init__(self, directory):
@@ -14,19 +15,36 @@ class VersionList:
         with open(self.main_file) as f:
             self.versions = json.load(f)
 
-    def save(self):
+    def save(self, codes = None):
         with open(self.main_file, 'w') as f:
-            json.dump(self.versions, f, indent=4)
+            if codes is None:
+                json.dump(self.versions, f, indent=4)
+            else:
+                versions = []
+                for v in self.versions:
+                    cv = copy.copy(v)
+                    cv["codes"] = {}
+                    for arch in v["codes"]:
+                        if arch in codes and v["codes"][arch] >= codes[arch][0] and v["codes"][arch] <= codes[arch][1]:
+                            cv["codes"][arch] = v["codes"][arch]
+                    if cv["codes"]:
+                        versions.append(cv)
+                json.dump(versions, f, indent=4)
 
-    def save_minified(self, arch):
+
+    def save_minified(self, arch, codes = None):
         data = []
+        cmin = codes[arch][0] if not codes is None and arch in codes else 0
+        cmax = codes[arch][1] if not codes is None and arch in codes else -1
         for v in self.versions:
             if arch in v["codes"]:
-                dataObj = [v["codes"][arch], v["version_name"], 1 if ("beta" in v and v["beta"]) else 0]
-                # Rollforward feature of the mcpelauncher
-                if ("maxCodes" in v) and (arch in v["maxCodes"]):
-                    dataObj.append(v["maxCodes"][arch])
-                data.append(dataObj)
+                code = v["codes"][arch]
+                if code >= cmin and (cmax == -1 or code <= cmax):
+                    dataObj = [code, v["version_name"], 1 if ("beta" in v and v["beta"]) else 0]
+                    # Rollforward feature of the mcpelauncher
+                    if ("maxCodes" in v) and (arch in v["maxCodes"]):
+                        dataObj.append(v["maxCodes"][arch])
+                    data.append(dataObj)
         with open(os.path.join(os.path.dirname(self.main_file), "versions." + arch + ".json.min"), 'w') as f:
             json.dump(data, f, separators=(',',':'))
 
