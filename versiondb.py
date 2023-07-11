@@ -33,8 +33,8 @@ class VersionList:
 
     def save_minified(self, arch, codes = None):
         data = []
-        cmin = codes[arch][0] if arch in codes else 0
-        cmax = codes[arch][1] if arch in codes else -1
+        cmin = codes[arch][0] if not codes is None and arch in codes else 0
+        cmax = codes[arch][1] if not codes is None and arch in codes else -1
         for v in self.versions:
             if arch in v["codes"]:
                 code = v["codes"][arch]
