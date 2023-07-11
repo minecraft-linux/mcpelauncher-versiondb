@@ -16,13 +16,6 @@ jobs:
       matrix:
         config:
         - branch: ${{ github.ref_name }}
-        # Just a test
-        - branch: v0.0.0
-          codes:
-            armeabi-v7a: [0, 952001999]
-            x86: [0, 962001999]
-            arm64-v8a: [0, 972001999]
-            x86_64: [0, 982001999]
         # Sync branches
         - branch: v0.10.x
           m: 1
