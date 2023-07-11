@@ -18,15 +18,17 @@ class VersionList:
         with open(self.main_file, 'w') as f:
             json.dump(self.versions, f, indent=4)
 
-    def save_minified(self, arch):
+    def save_minified(self, arch, cmin = 0, cmax = -1):
         data = []
         for v in self.versions:
             if arch in v["codes"]:
-                dataObj = [v["codes"][arch], v["version_name"], 1 if ("beta" in v and v["beta"]) else 0]
-                # Rollforward feature of the mcpelauncher
-                if ("maxCodes" in v) and (arch in v["maxCodes"]):
-                    dataObj.append(v["maxCodes"][arch])
-                data.append(dataObj)
+                code = v["codes"][arch]
+                if code >= cmin and (cmax == -1 or code <= cmax):
+                    dataObj = [code, v["version_name"], 1 if ("beta" in v and v["beta"]) else 0]
+                    # Rollforward feature of the mcpelauncher
+                    if ("maxCodes" in v) and (arch in v["maxCodes"]):
+                        dataObj.append(v["maxCodes"][arch])
+                    data.append(dataObj)
         with open(os.path.join(os.path.dirname(self.main_file), "versions." + arch + ".json.min"), 'w') as f:
             json.dump(data, f, separators=(',',':'))
 

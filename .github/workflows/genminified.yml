@@ -1,6 +1,8 @@
 name: Generate minified versions
 
-on: push
+on:
+  push:
+  workflow_dispatch:
 
 jobs:
   build:
@@ -8,13 +10,30 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-
+    strategy:
+      matrix:
+        config:
+        - branch: ${{ github.ref }},
+        # Sync branches
+        - branch: v0.10.x,
+          m: 1
+          codes:
+            armeabi-v7a: [0, 952002020],
+            x86: [0, 962002020],
+            arm64-v8a: [0, 972002020],
+            x86_64: [0, 982002020]
+        exclude:
+        # disable branch sync for non default branch
+        - config:
+            m: ${{ github.ref != format('refs/heads/{0}', github.event.repository.default_branch) && 1 || -1 }}
     steps:
-    - uses: actions/checkout@v2
-    - name: Set up Python 3.8
-      uses: actions/setup-python@v2
+    - uses: actions/checkout@v3
       with:
-        python-version: 3.8 
+        ref: ${{ matrix.codes.branch }}
+    - name: Set up Python 3.11
+      uses: actions/setup-python@v4
+      with:
+        python-version: 3.11
     - name: Update files
       env:
         PYTHONPATH: ${{ github.workspace }}
@@ -22,10 +41,10 @@ jobs:
       run: |
         import versiondb
         list = versiondb.VersionList('.')
-        list.save_minified('armeabi-v7a')
-        list.save_minified('x86')
-        list.save_minified('arm64-v8a')
-        list.save_minified('x86_64')
+        list.save_minified('armeabi-v7a', ${{ matrix.config.codes.armeabi-v7a[0] || 0 }}, ${{ matrix.config.codes.armeabi-v7a[1] || -1 }})
+        list.save_minified('x86', ${{ matrix.config.codes.x86[0] || 0 }}, ${{ matrix.config.codes.x86[1] || -1 }})
+        list.save_minified('arm64-v8a', ${{ matrix.config.codes.arm64-v8a[0] || 0 }}, ${{ matrix.config.codes.arm64-v8a[1] || -1 }})
+        list.save_minified('x86_64', ${{ matrix.config.codes.x86_64[0] || 0 }}, ${{ matrix.config.codes.x86_64[1] || -1 }})
     - name: Update git
       run: |
         # from https://github.com/orgs/community/discussions/26560
