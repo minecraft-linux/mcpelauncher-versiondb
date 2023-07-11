@@ -46,6 +46,7 @@ jobs:
     - name: Update files
       env:
         PYTHONPATH: ${{ github.workspace }}
+        CODES: ${{ tojson(matrix.config.codes) }}
       shell: python
       run: |
         import os
@@ -57,8 +58,6 @@ jobs:
         list.save_minified('x86', codes)
         list.save_minified('arm64-v8a', codes)
         list.save_minified('x86_64', codes)
-      env:
-        CODES: ${{ tojson(matrix.config.codes) }}
     - name: copy to deploy
       run: |
         cp versions.json versions.*.json.min deploy/
