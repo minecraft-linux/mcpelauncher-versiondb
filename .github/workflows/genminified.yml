@@ -50,6 +50,7 @@ jobs:
       shell: python
       run: |
         import os
+        import json
         import versiondb
         list = versiondb.VersionList('.')
         codes = json.loads(os.getenv('CODES'))
