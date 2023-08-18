@@ -18,13 +18,20 @@ jobs:
         config:
         - branch: ${{ github.ref_name }}
         # Sync branches
-        - branch: v0.10.x
+        - branch: v0.10.x # TODO remove after adding v0.12.x
           m: 1
           codes:
             armeabi-v7a: [0, 952001999]
             x86: [0, 962001999]
             arm64-v8a: [0, 972001999]
             x86_64: [0, 982001999]
+        - branch: v0.11.x
+          m: 1
+          codes:
+            armeabi-v7a: [0, 952031999]
+            x86: [0, 962031999]
+            arm64-v8a: [0, 972031999]
+            x86_64: [0, 982031999]
         exclude:
         # disable branch sync for non default branch
         - config:
