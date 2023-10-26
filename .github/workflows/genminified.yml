@@ -28,10 +28,10 @@ jobs:
         - branch: v0.11.x
           m: 1
           codes:
-            armeabi-v7a: [0, 952003999]
-            x86: [0, 962003999]
-            arm64-v8a: [0, 972003999]
-            x86_64: [0, 982003999]
+            armeabi-v7a: [0, 952004999]
+            x86: [0, 962004999]
+            arm64-v8a: [0, 972004999]
+            x86_64: [0, 982004999]
         exclude:
         # disable branch sync for non default branch
         - config:
